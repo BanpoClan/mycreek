@@ -1,0 +1,118 @@
+DEBUG 2018-03-16 17:07:01,664 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-16 17:07:01,673 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-03-16 17:07:01,678 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.Web.MyCreekWebModule, MyCreek.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:07:01,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekDataModule, MyCreek.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:07:01,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:07:01,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:07:01,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:07:01,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:07:01,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:07:01,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:07:01,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekCoreModule, MyCreek.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:07:01,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekApplicationModule, MyCreek.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:07:01,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:07:01,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.Api.MyCreekWebApiModule, MyCreek.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:07:01,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:07:01,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:07:01,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:07:01,682 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:07:01,682 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:07:01,684 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-03-16 17:07:01,853 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-16 17:07:01,853 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-16 17:07:01,853 [1    ] o.Configuration.LanguageManagementConfig - Converted MyCreek (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-16 17:07:01,853 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-16 17:07:02,085 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MyCreek.EntityFramework.MyCreekDbContext, MyCreek.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:07:03,397 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-16 17:07:03,414 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-16 17:07:03,419 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-16 17:07:03,421 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyCreek
+DEBUG 2018-03-16 17:07:03,422 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-03-16 17:07:03,460 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-16 17:07:03,507 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-03-16 17:07:03,507 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-16 17:07:03,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-16 17:07:03,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.CreateUserDto
+DEBUG 2018-03-16 17:07:03,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.UpdateUserDto
+DEBUG 2018-03-16 17:07:03,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.UserDto
+DEBUG 2018-03-16 17:07:03,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-16 17:07:03,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.PermissionDto
+DEBUG 2018-03-16 17:07:03,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.RoleDto
+DEBUG 2018-03-16 17:07:03,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-16 17:07:03,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-03-16 17:07:03,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-16 17:07:03,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-03-16 17:07:03,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-03-16 17:07:04,258 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-03-16 17:07:04,258 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-03-16 17:07:04,259 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-03-16 17:07:04,260 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-03-16 17:07:04,260 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-03-16 17:07:04,261 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-03-16 17:07:13,002 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"22397ba7-2d9e-4a4d-930b-a33286de20fe","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-16T17:07:12.9975139+08:00","Properties":{}}
+DEBUG 2018-03-16 17:07:13,026 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 22397ba7-2d9e-4a4d-930b-a33286de20fe
+WARN  2018-03-16 17:07:51,230 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'MyCreek'!
+DEBUG 2018-03-16 17:07:51,278 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 22397ba7-2d9e-4a4d-930b-a33286de20fe
+DEBUG 2018-03-16 17:07:51,434 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e0dda72c-0008-489b-ab89-0ba377535f65","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-16T17:07:51.4343437+08:00","Properties":{}}
+DEBUG 2018-03-16 17:07:51,437 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e0dda72c-0008-489b-ab89-0ba377535f65
+DEBUG 2018-03-16 17:12:44,624 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-16 17:12:44,827 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-03-16 17:14:42,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.Web.MyCreekWebModule, MyCreek.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:14:42,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekDataModule, MyCreek.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:14:42,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:14:42,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:14:42,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:14:42,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:14:42,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:14:42,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:14:42,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekCoreModule, MyCreek.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:14:42,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekApplicationModule, MyCreek.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:14:42,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:14:42,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.Api.MyCreekWebApiModule, MyCreek.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:14:42,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:14:42,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:14:42,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:14:42,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:14:42,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:15:20,978 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-03-16 17:15:21,464 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-16 17:15:21,464 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-16 17:15:21,464 [1    ] o.Configuration.LanguageManagementConfig - Converted MyCreek (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-16 17:15:21,464 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-16 17:15:21,705 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MyCreek.EntityFramework.MyCreekDbContext, MyCreek.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-16 17:15:22,265 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-16 17:15:22,285 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-16 17:15:22,290 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-16 17:15:22,292 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyCreek
+DEBUG 2018-03-16 17:15:22,293 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-03-16 17:15:22,355 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-16 17:15:22,397 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-03-16 17:15:22,397 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-16 17:15:22,400 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-16 17:15:22,400 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.CreateUserDto
+DEBUG 2018-03-16 17:15:22,401 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.UpdateUserDto
+DEBUG 2018-03-16 17:15:22,401 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.UserDto
+DEBUG 2018-03-16 17:15:22,401 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-16 17:15:22,401 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.PermissionDto
+DEBUG 2018-03-16 17:15:22,401 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.RoleDto
+DEBUG 2018-03-16 17:15:22,401 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-16 17:15:22,401 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-03-16 17:15:22,401 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-16 17:15:22,401 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-03-16 17:15:22,401 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-03-16 17:15:23,538 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-03-16 17:15:23,538 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-03-16 17:15:23,539 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-03-16 17:15:23,540 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-03-16 17:15:23,541 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-03-16 17:15:23,541 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-03-16 17:15:32,125 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"e0dda72c-0008-489b-ab89-0ba377535f65","IpAddress":null,"TenantId":null,"UserId":1,"ConnectTime":"2018-03-16T17:15:32.111056+08:00","Properties":{}}
+DEBUG 2018-03-16 17:15:33,559 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"64de0ec3-cc12-444b-9d29-9a940a9dd8ea","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-16T17:15:33.5594198+08:00","Properties":{}}
+DEBUG 2018-03-16 17:15:33,585 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 64de0ec3-cc12-444b-9d29-9a940a9dd8ea
+DEBUG 2018-03-16 17:16:11,992 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e0dda72c-0008-489b-ab89-0ba377535f65
+DEBUG 2018-03-16 17:16:16,207 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 64de0ec3-cc12-444b-9d29-9a940a9dd8ea
+DEBUG 2018-03-16 17:16:16,425 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c8518c9b-2d37-4ecb-87fa-a2ca784f1dac","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-16T17:16:16.425584+08:00","Properties":{}}
+DEBUG 2018-03-16 17:16:16,431 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c8518c9b-2d37-4ecb-87fa-a2ca784f1dac
+DEBUG 2018-03-16 17:16:22,384 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c8518c9b-2d37-4ecb-87fa-a2ca784f1dac
+DEBUG 2018-03-16 17:16:22,568 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"34c8120a-10e9-4143-9fbc-bc312f7afaa8","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-16T17:16:22.5686417+08:00","Properties":{}}
+DEBUG 2018-03-16 17:16:22,573 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 34c8120a-10e9-4143-9fbc-bc312f7afaa8
