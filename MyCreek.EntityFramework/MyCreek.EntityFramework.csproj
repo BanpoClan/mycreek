@@ -218,6 +218,10 @@
     <Compile Include="Migrations\201801311121458_Modified_Authorization_Entities.Designer.cs">
       <DependentUpon>201801311121458_Modified_Authorization_Entities.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803160957386_创建客户信息表.cs" />
+    <Compile Include="Migrations\201803160957386_创建客户信息表.Designer.cs">
+      <DependentUpon>201803160957386_创建客户信息表.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyCreekDataModule.cs" />
@@ -249,6 +253,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201801311121458_Modified_Authorization_Entities.resx">
       <DependentUpon>201801311121458_Modified_Authorization_Entities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803160957386_创建客户信息表.resx">
+      <DependentUpon>201803160957386_创建客户信息表.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

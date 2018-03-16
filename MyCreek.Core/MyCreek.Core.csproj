@@ -186,6 +186,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modules\CRM\CustomerInfo.cs" />
     <Compile Include="MyCreekConsts.cs" />
     <Compile Include="MyCreekCoreModule.cs" />
     <Compile Include="AppVersionHelper.cs" />

@@ -3,6 +3,8 @@ using Abp.Zero.EntityFramework;
 using MyCreek.Authorization.Roles;
 using MyCreek.Authorization.Users;
 using MyCreek.MultiTenancy;
+using MyCreek.Modules.CRM;
+using System.Data.Entity;
 
 namespace MyCreek.EntityFramework
 {
@@ -15,6 +17,9 @@ namespace MyCreek.EntityFramework
          *   But it may cause problems when working Migrate.exe of EF. If you will apply migrations on command line, do not
          *   pass connection string name to base classes. ABP works either way.
          */
+
+        public virtual IDbSet<CustomerInfo> CustomerInfoes { get; set; }
+
         public MyCreekDbContext()
             : base("Default")
         {
