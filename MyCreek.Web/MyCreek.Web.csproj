@@ -2259,6 +2259,15 @@
     <Content Include="lib\Waves\docs\_pages\source.html" />
     <Content Include="lib\Waves\Gruntfile.js" />
     <Content Include="lib\Waves\src\js\waves.js" />
+    <Content Include="lib\zTree\css\bootstrapStyle\bootstrapStyle.css" />
+    <Content Include="lib\zTree\css\bootstrapStyle\img\bootstrap.gif" />
+    <Content Include="lib\zTree\css\bootstrapStyle\img\bootstrap.png" />
+    <Content Include="lib\zTree\css\bootstrapStyle\img\line_conn.png" />
+    <Content Include="lib\zTree\css\bootstrapStyle\img\loading.gif" />
+    <Content Include="lib\zTree\js\jquery.min.js" />
+    <Content Include="lib\zTree\js\jquery.ztree.core.js" />
+    <Content Include="lib\zTree\js\jquery.ztree.excheck.js" />
+    <Content Include="lib\zTree\js\jquery.ztree.exedit.js" />
     <Content Include="log4net.config" />
     <Content Include="fonts\material-icons\materialicons.woff2" />
     <Content Include="fonts\roboto\-2n2p-_Y08sg57CNWQfKNvesZW2xOQ-xsNqO47m55DA.woff2" />
@@ -2781,6 +2790,7 @@
     <Content Include="Views\Account\_TenantChange.js" />
     <Content Include="Views\Account\_TenantChangeModal.js" />
     <Content Include="Views\Home\Index.js" />
+    <Content Include="Views\Menus\index.js" />
     <Content Include="Views\Roles\Index.js" />
     <Content Include="Views\Roles\_EditRoleModal.js" />
     <Content Include="Views\Shared\_Layout.css" />
@@ -2807,6 +2817,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\DiyPageController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MenusController.cs" />
     <Compile Include="Controllers\Results\ChallengeResult.cs" />
     <Compile Include="Controllers\RolesController.cs" />
     <Compile Include="Controllers\TenantsController.cs" />
@@ -2952,6 +2963,7 @@
     <Content Include="Views\Tenants\_EditTenantModal.cshtml" />
     <Content Include="Scripts\jquery-3.2.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.2.1.min.map" />
+    <Content Include="Views\Menus\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

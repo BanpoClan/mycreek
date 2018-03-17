@@ -1,0 +1,139 @@
+﻿@using Abp.Web.Mvc.Extensions
+@{
+    ViewBag.ActiveMenu = "Feature"; //The menu item will be active for this page.
+    ViewBag.Title = "Index";
+}
+
+<style>
+    .labelex {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+</style>
+
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+        <div class="card">
+            <div class="header">
+                <h2>
+                    功能管理
+                </h2>
+                    <small >选中节点设置基本信息</small>
+            </div>
+            <div class="body">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <ul id="treeDemo" class="ztree"></ul>
+                    </div>
+                    <div id="basic_setting" class="col-lg-8">
+                        <div style="    margin-bottom: 20px;">
+                            <div class="form-line">
+                                <span  id="curNode" class="label label-success labelex">当前节点：</span>
+                            </div>
+                        </div>
+
+
+                        <form id="form_validation" method="POST">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs tab-col-teal" role="tablist">
+                                <li role="presentation" class="active"><a href="#basic" data-toggle="tab">基本设置</a></li>
+                                <li role="presentation"><a href="#datasource" data-toggle="tab">数据源</a></li>
+                            </ul>
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade in active" id="basic">
+                                    
+                                    <div style="display:none">
+                                        <input type="text" class="form-control" name="MenuGuid" >
+                                        <input type="text" class="form-control" name="ParentMenuGuid" >
+                                        <input type="text" class="form-control" name="DisplayName" >
+                                    </div>
+
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" name="Url" required>
+                                            <label class="form-label">Url</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" name="Icon" >
+                                            <label class="form-label">Icon</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" name="Order" >
+                                            <label class="form-label">序号</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="datasource">
+                                    <div class="form-group form-float">
+                                        <small class="label label-success labelex" style="">数据源：该功能列表页面将默认显示关联数据库表的数据。若是设置了SQL，视图，过程。那么取数据的优先级为：SQL->视图->过程</small>
+                                    </div>
+                                    
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" name="name" required>
+                                            <label class="form-label">关联数据库表</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" name="surname" >
+                                            <label class="form-label">关联SQL</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" name="surname" >
+                                            <label class="form-label">关联视图</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" name="surname" >
+                                            <label class="form-label">关联存储过程</label>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <textarea name="description" cols="30" rows="5" class="form-control no-resize" ></textarea>
+                                            <label class="form-label">功能描述</label>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <button class="btn btn-primary waves-effect" type="submit">提交</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<link rel="stylesheet" href="~/lib/zTree/css/bootstrapStyle/bootstrapStyle.css" type="text/css">
+
+
+@section scripts{
+
+    <script type="text/javascript" src="~/lib/zTree/js/jquery.ztree.core.js"></script>
+    <script type="text/javascript" src="~/lib/zTree/js/jquery.ztree.excheck.js"></script>
+    <script type="text/javascript" src="~/lib/zTree/js/jquery.ztree.exedit.js"></script>
+    @Html.IncludeScript("~/Views/Menus/Index.js")
+    <SCRIPT type="text/javascript">
+
+    </SCRIPT>
+
+}

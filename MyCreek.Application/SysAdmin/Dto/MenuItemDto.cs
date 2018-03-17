@@ -11,13 +11,10 @@ namespace MyCreek.SysAdmin.Dto
     [AutoMapFrom(typeof(MenuItemDefine))]
     public class MenuItemDto
     {
-        public string MenuGuid { get; set; }
-        public string ParentMenuGuid { get; set; }
-        public string Name { get; set; }
-        public string DisplayName { get; set; }
-        public string Url { get; set; }
-        public string Icon { get; set; }
-        public int Order { get; set; }
+        public string id { get; set; }
+        public string pId { get; set; }
+        public string name { get; set; }
+        public bool open { get; set; }
 
     }
 }
