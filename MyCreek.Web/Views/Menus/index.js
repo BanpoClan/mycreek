@@ -31,14 +31,21 @@
                     onRename: function (event, treeId, treeNode, isCancel) {
                         debugger;
                         //创建菜单
+                        createMenu(treeNode);
                     },
                     onCheck: function (event, treeId, node) {
-                        debugger;
                         $("#curNode").html("当前节点:" + node.name);
                         $("#form_validation input[name='MenuGuid']").val(node.id);
                         $("#form_validation input[name='ParentMenuGuid']").val(node.pId);
                         $("#form_validation input[name='DisplayName']").val(node.name);
                     },
+                    onRemove: function (e, treeId, treeNode) {
+                        debugger;
+                        _roleService.delete({ MenuGuid: treeNode.id }).done(function () {
+                            debugger;
+                            abp.notify.info(abp.localization.localize('SavedSuccessfully'));
+                        });
+                    }
                 }
             };
 
@@ -63,6 +70,20 @@
         function removeHoverDom(treeId, treeNode) {
             $("#addBtn_" + treeNode.tId).unbind().remove();
         };
+
+        function createMenu(node) {
+            var menu = {};
+            menu["Name"] = node.name;
+            menu["PId"] = node.pId;
+            menu["Id"] = node.id;
+            _roleService.createOrEdit(
+                menu
+            ).done(function () {
+                debugger;
+                abp.notify.info(abp.localization.localize('SavedSuccessfully'));
+            });
+
+        }
 
 
 

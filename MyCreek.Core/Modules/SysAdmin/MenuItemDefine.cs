@@ -20,5 +20,27 @@ namespace MyCreek.Modules.SysAdmin
         public string Icon { get; set; }
         public int Order { get; set; }
 
+        /// <summary>
+        /// 关联数据库表
+        /// </summary>
+        public string DBTable { get; set; }
+
+        /// <summary>
+        /// 关联SQL
+        /// </summary>
+        public string ExecSQL { get; set; }
+
+        /// <summary>
+        /// 关联视图
+        /// </summary>
+        public string DBView { get; set; }
+
+        /// <summary>
+        /// 关联存储过程
+        /// </summary>
+        public string Procedure { get; set; }
+
+
+
     }
 }

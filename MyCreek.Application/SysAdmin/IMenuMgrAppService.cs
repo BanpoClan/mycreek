@@ -15,5 +15,6 @@ namespace MyCreek.SysAdmin
         List<MenuItemDefine> GetList();
         List<MenuItemDto> GetListDto();
         Task CreateOrEdit(CreateOrEditInput input);
+        Task Delete(DeleteMenuInput input);
     }
 }
