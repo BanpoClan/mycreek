@@ -231,6 +231,14 @@
     <Compile Include="Migrations\201803170752094_菜单表添加字段关联数据库信息.Designer.cs">
       <DependentUpon>201803170752094_菜单表添加字段关联数据库信息.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803170846103_新增字段.cs" />
+    <Compile Include="Migrations\201803170846103_新增字段.Designer.cs">
+      <DependentUpon>201803170846103_新增字段.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803170852288_修改字段.cs" />
+    <Compile Include="Migrations\201803170852288_修改字段.Designer.cs">
+      <DependentUpon>201803170852288_修改字段.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyCreekDataModule.cs" />
@@ -271,6 +279,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201803170752094_菜单表添加字段关联数据库信息.resx">
       <DependentUpon>201803170752094_菜单表添加字段关联数据库信息.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803170846103_新增字段.resx">
+      <DependentUpon>201803170846103_新增字段.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803170852288_修改字段.resx">
+      <DependentUpon>201803170852288_修改字段.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

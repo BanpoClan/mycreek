@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MyCreek.SysAdmin.Dto
 {
-    [AutoMapFrom(typeof(MenuItemDefine))]
+    
     public class MenuItemDto
     {
         public string id { get; set; }

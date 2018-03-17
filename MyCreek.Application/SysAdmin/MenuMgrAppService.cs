@@ -113,5 +113,32 @@ namespace MyCreek.SysAdmin
             }
 
         }
+
+        public async Task AddAdditional(AdditionalInput input)
+        {
+            try
+            {
+                var menuItemDefine = await _repository.GetSingleMenuItemDefine(input.MenuGuid);
+                if (menuItemDefine != null)
+                {
+                    menuItemDefine.Url = input.Url;
+                    menuItemDefine.Icon = input.Icon;
+                    menuItemDefine.Order = input.Order;
+                    menuItemDefine.Description = input.Description;
+                    menuItemDefine.DBTable = input.DBTable;
+                    menuItemDefine.ExecSQL = input.ExecSQL;
+                    menuItemDefine.DBView = input.DBView;
+                    menuItemDefine.Procedure = input.Procedure;
+                    await _repository.UpdateAsync(menuItemDefine);
+                }
+               
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            
+        }
     }
 }

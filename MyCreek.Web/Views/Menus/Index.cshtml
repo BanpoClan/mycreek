@@ -34,7 +34,7 @@
                         </div>
 
 
-                        <form id="form_validation" method="POST">
+                        <form id="form_validation" >
                             <!-- Nav tabs -->
                             <ul class="nav nav-tabs tab-col-teal" role="tablist">
                                 <li role="presentation" class="active"><a href="#basic" data-toggle="tab">基本设置</a></li>
@@ -84,19 +84,19 @@
                                     </div>
                                     <div class="form-group form-float">
                                         <div class="form-line">
-                                            <input type="text" class="form-control" name="surname" >
+                                            <input type="text" class="form-control" name="ExecSQL" >
                                             <label class="form-label">关联SQL</label>
                                         </div>
                                     </div>
                                     <div class="form-group form-float">
                                         <div class="form-line">
-                                            <input type="text" class="form-control" name="surname" >
+                                            <input type="text" class="form-control" name="DBView" >
                                             <label class="form-label">关联视图</label>
                                         </div>
                                     </div>
                                     <div class="form-group form-float">
                                         <div class="form-line">
-                                            <input type="text" class="form-control" name="surname" >
+                                            <input type="text" class="form-control" name="Procedure" >
                                             <label class="form-label">关联存储过程</label>
                                         </div>
                                     </div>
@@ -104,14 +104,14 @@
 
                                     <div class="form-group form-float">
                                         <div class="form-line">
-                                            <textarea name="description" cols="30" rows="5" class="form-control no-resize" ></textarea>
+                                            <textarea name="Description" cols="30" rows="5" class="form-control no-resize" ></textarea>
                                             <label class="form-label">功能描述</label>
                                         </div>
                                     </div>
 
                                 </div>
                             </div>
-                            <button class="btn btn-primary waves-effect" type="submit">提交</button>
+                            <button class="btn btn-primary waves-effect" type="button" id="submit">提交</button>
                         </form>
                     </div>
                 </div>

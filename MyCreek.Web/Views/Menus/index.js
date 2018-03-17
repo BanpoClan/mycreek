@@ -1,12 +1,12 @@
 ﻿(function () {
     $(function () {
-        var _roleService = abp.services.app.menuMgr;
+        var _service = abp.services.app.menuMgr;
         function getMenuList() {
-            _roleService.getListDto().done(function (data) {
+            _service.getListDto().done(function (data) {
                 initTree(data);
             });
         }
-       
+
         getMenuList();
 
         function initTree(zNodes) {
@@ -17,7 +17,7 @@
                     selectedMulti: false
                 },
                 check: {
-                    enable: true
+                    enable: true, chkStyle: 'radio', radioType: 'level'
                 },
                 data: {
                     simpleData: {
@@ -29,7 +29,7 @@
                 },
                 callback: {
                     onRename: function (event, treeId, treeNode, isCancel) {
-                        debugger;
+                 
                         //创建菜单
                         createMenu(treeNode);
                     },
@@ -40,11 +40,17 @@
                         $("#form_validation input[name='DisplayName']").val(node.name);
                     },
                     onRemove: function (e, treeId, treeNode) {
-                        debugger;
-                        _roleService.delete({ MenuGuid: treeNode.id }).done(function () {
-                            debugger;
-                            abp.notify.info(abp.localization.localize('SavedSuccessfully'));
-                        });
+                    
+
+                        if (treeNode.id.length > 10) {
+                            _service.delete({ MenuGuid: treeNode.id }).done(function () {
+                                debugger;
+                                abp.notify.info(abp.localization.localize('SavedSuccessfully'));
+                                getMenuList();
+                            });
+                        }
+
+
                     }
                 }
             };
@@ -76,15 +82,38 @@
             menu["Name"] = node.name;
             menu["PId"] = node.pId;
             menu["Id"] = node.id;
-            _roleService.createOrEdit(
+
+
+            $(".page-loader-wrapper").show();
+            _service.createOrEdit(
                 menu
             ).done(function () {
-                debugger;
+                
                 abp.notify.info(abp.localization.localize('SavedSuccessfully'));
+                getMenuList();
+                $(".page-loader-wrapper").hide();
             });
 
         }
 
+        
+
+        function submit() {
+            var _$form = $("#form_validation");
+            var menu = _$form.serializeFormToObject();
+            debugger;
+            $(".page-loader-wrapper").show();
+            _service.addAdditional(
+                menu
+            ).done(function () {
+                debugger;
+                abp.notify.info(abp.localization.localize('SavedSuccessfully'));
+                $(".page-loader-wrapper").hide();
+            });
+        }
+        $("#submit").on("click", function () {
+            submit();
+        });
 
 
 

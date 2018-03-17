@@ -1,16 +1,19 @@
-﻿using Abp.Domain.Entities.Auditing;
+﻿using Abp.Application.Services.Dto;
+using Abp.AutoMapper;
+using MyCreek.Modules.SysAdmin;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyCreek.Modules.SysAdmin
+namespace MyCreek.SysAdmin.Dto
 {
     /// <summary>
-    /// 自定义菜单
+    /// 附加信息
     /// </summary>
-    public class MenuItemDefine : FullAuditedEntity
+    [AutoMapFrom(typeof(MenuItemDefine))]
+    public class AdditionalInput: FullAuditedEntityDto
     {
         public string MenuGuid { get; set; }
         public string ParentMenuGuid { get; set; }
@@ -41,7 +44,6 @@ namespace MyCreek.Modules.SysAdmin
         /// 关联存储过程
         /// </summary>
         public string Procedure { get; set; }
-
 
 
     }

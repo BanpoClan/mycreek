@@ -295,6 +295,7 @@
     <Compile Include="Roles\Dto\PermissionDto.cs" />
     <Compile Include="Roles\Dto\RoleDto.cs" />
     <Compile Include="Roles\IRoleAppService.cs" />
+    <Compile Include="SysAdmin\Dto\AdditionalInput.cs" />
     <Compile Include="SysAdmin\Dto\CreateOrEditInput.cs" />
     <Compile Include="SysAdmin\Dto\DeleteMenuInput.cs" />
     <Compile Include="SysAdmin\Dto\GetMenuItemInput.cs" />
