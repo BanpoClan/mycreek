@@ -5,6 +5,7 @@ using MyCreek.Authorization.Users;
 using MyCreek.MultiTenancy;
 using MyCreek.Modules.CRM;
 using System.Data.Entity;
+using MyCreek.Modules.SysAdmin;
 
 namespace MyCreek.EntityFramework
 {
@@ -19,7 +20,7 @@ namespace MyCreek.EntityFramework
          */
 
         public virtual IDbSet<CustomerInfo> CustomerInfoes { get; set; }
-
+        public virtual IDbSet<MenuItemDefine> MenuItemDefines { get; set; }
         public MyCreekDbContext()
             : base("Default")
         {

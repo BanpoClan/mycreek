@@ -1,7 +1,13 @@
 ﻿using Abp.Application.Navigation;
 using Abp.Localization;
 using MyCreek.Authorization;
-
+using MyCreek.Localization;
+using MyCreek.Modules.SysAdmin;
+using MyCreek.SysAdmin;
+using System;
+using System.Collections.Generic;
+using System.Data.Linq;
+using System.Linq;
 namespace MyCreek.Web
 {
     /// <summary>
@@ -12,131 +18,66 @@ namespace MyCreek.Web
     /// </summary>
     public class MyCreekNavigationProvider : NavigationProvider
     {
+        private readonly IMenuMgrAppService _menuMgrAppService;
+        public MyCreekNavigationProvider(IMenuMgrAppService menuMgrAppService)
+        {
+            _menuMgrAppService = menuMgrAppService;
+        }
+
         public override void SetNavigation(INavigationProviderContext context)
         {
-            context.Manager.MainMenu
-                .AddItem(
-                    new MenuItemDefinition(
-                        PageNames.Home,
-                        L("HomePage"),
-                        url: "",
-                        icon: "home",
-                        requiresAuthentication: true
-                    )
-                ).AddItem(
-                    new MenuItemDefinition(
-                        PageNames.Tenants,
-                        L("Tenants"),
-                        url: "Tenants",
-                        icon: "business",
-                        requiredPermissionName: PermissionNames.Pages_Tenants
-                    )
-                ).AddItem(
-                    new MenuItemDefinition(
-                        PageNames.Users,
-                        L("Users"),
-                        url: "Users",
-                        icon: "people",
-                        requiredPermissionName: PermissionNames.Pages_Users
-                    )
-                ).AddItem(
-                    new MenuItemDefinition(
-                        PageNames.Roles,
-                        L("Roles"),
-                        url: "Roles",
-                        icon: "local_offer",
-                        requiredPermissionName: PermissionNames.Pages_Roles
-                    )
-                )
-                .AddItem(
-                    new MenuItemDefinition(
-                        PageNames.About,
-                        L("About"),
-                        url: "About",
-                        icon: "info"
-                    )
-                ).AddItem( //Menu items below is just for demonstration!
-                    new MenuItemDefinition(
-                        "MultiLevelMenu",
-                        L("MultiLevelMenu"),
-                        icon: "menu"
-                    ).AddItem(
-                        new MenuItemDefinition(
-                            "AspNetBoilerplate",
-                            new FixedLocalizableString("ASP.NET Boilerplate")
-                        ).AddItem(
-                            new MenuItemDefinition(
-                                "AspNetBoilerplateHome",
-                                new FixedLocalizableString("Home"),
-                                url: "https://aspnetboilerplate.com?ref=abptmpl"
-                            )
-                        ).AddItem(
-                            new MenuItemDefinition(
-                                "AspNetBoilerplateTemplates",
-                                new FixedLocalizableString("Templates"),
-                                url: "https://aspnetboilerplate.com/Templates?ref=abptmpl"
-                            )
-                        ).AddItem(
-                            new MenuItemDefinition(
-                                "AspNetBoilerplateSamples",
-                                new FixedLocalizableString("Samples"),
-                                url: "https://aspnetboilerplate.com/Samples?ref=abptmpl"
-                            )
-                        ).AddItem(
-                            new MenuItemDefinition(
-                                "AspNetBoilerplateDocuments",
-                                new FixedLocalizableString("Documents"),
-                                url: "https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl"
-                            )
-                        )
-                    ).AddItem(
-                        new MenuItemDefinition(
-                            "AspNetZero",
-                            new FixedLocalizableString("ASP.NET Zero")
-                        ).AddItem(
-                            new MenuItemDefinition(
-                                "AspNetZeroHome",
-                                new FixedLocalizableString("Home"),
-                                url: "https://aspnetzero.com?ref=abptmpl"
-                            )
-                        ).AddItem(
-                            new MenuItemDefinition(
-                                "AspNetZeroDescription",
-                                new FixedLocalizableString("Description"),
-                                url: "https://aspnetzero.com/?ref=abptmpl#description"
-                            )
-                        ).AddItem(
-                            new MenuItemDefinition(
-                                "AspNetZeroFeatures",
-                                new FixedLocalizableString("Features"),
-                                url: "https://aspnetzero.com/?ref=abptmpl#features"
-                            )
-                        ).AddItem(
-                            new MenuItemDefinition(
-                                "AspNetZeroPricing",
-                                new FixedLocalizableString("Pricing"),
-                                url: "https://aspnetzero.com/?ref=abptmpl#pricing"
-                            )
-                        ).AddItem(
-                            new MenuItemDefinition(
-                                "AspNetZeroFaq",
-                                new FixedLocalizableString("Faq"),
-                                url: "https://aspnetzero.com/Faq?ref=abptmpl"
-                            )
-                        ).AddItem(
-                            new MenuItemDefinition(
-                                "AspNetZeroDocuments",
-                                new FixedLocalizableString("Documents"),
-                                url: "https://aspnetzero.com/Documents?ref=abptmpl"
-                            )
-                        )
-                    )
-                );
+            CreateMenuTree(context);
         }
 
         private static ILocalizableString L(string name)
         {
-            return new LocalizableString(name, MyCreekConsts.LocalizationSourceName);
+            return new DBLocalizableString(name);
         }
+
+        private void CreateMenuTree(INavigationProviderContext context)
+        {
+            //获取菜单表数据
+            var data = _menuMgrAppService.GetList();
+            //通过递归构造数据
+            if (data != null)
+            {
+
+                var roots = data.Where(c => string.IsNullOrEmpty(c.ParentMenuGuid)).OrderBy(c => c.Order);
+                foreach (var item in roots)
+                {
+                    var menuItem = new MenuItemDefinition(
+                           item.Name,
+                           L(item.DisplayName),
+                           url: item.Url,
+                           icon: item.Icon
+                       );
+                    context.Manager.MainMenu.AddItem(menuItem);
+                    BuildTree(menuItem, item,  data);
+
+                }
+            }
+        }
+
+        private void BuildTree(MenuItemDefinition menuItem, MenuItemDefine item,  List<MenuItemDefine> data)
+        {
+
+            //找当前项的子项
+            var subMenuList = data.FindAll(c => c.ParentMenuGuid == item.MenuGuid).OrderBy(c => c.Order).ToList();
+            foreach (var subItem in subMenuList)
+            {
+                var subMenuItem = new MenuItemDefinition(
+                           subItem.Name,
+                           L(subItem.DisplayName),
+                           url: subItem.Url,
+                           icon: subItem.Icon
+                       );
+                menuItem.AddItem(subMenuItem);
+                BuildTree(subMenuItem, subItem, subMenuList);
+            }
+
+        }
+
+
+
     }
 }
