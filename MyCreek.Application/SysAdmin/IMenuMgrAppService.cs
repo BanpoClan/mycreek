@@ -19,7 +19,7 @@ namespace MyCreek.SysAdmin
         Task AddAdditional(AdditionalInput input);
 
         PagedResultDto<FieldDto> GetFields(GetFieldPagedInput input);
-        Task CreateOrEditField(FieldDto input);
+        Task CreateOrEditField(FieldInput input);
 
         Task<FieldDto> GetField(FieldDto input);
     }

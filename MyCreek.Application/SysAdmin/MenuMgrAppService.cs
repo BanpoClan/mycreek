@@ -153,7 +153,7 @@ namespace MyCreek.SysAdmin
         public PagedResultDto<FieldDto> GetFields(GetFieldPagedInput input)
         {
             var query = _fieldRepository.GetAll()
-                  .WhereIf(!string.IsNullOrEmpty(input.Filter), t => t.ColName.Contains(input.Filter)).OrderBy(c=>c.Id);
+                  .WhereIf(!string.IsNullOrEmpty(input.Filter), t => t.ColName.Contains(input.Filter)).OrderBy(c => c.Id);
 
             var count = query.Count();
             var list = query.PageBy(input).ToList();
@@ -161,11 +161,11 @@ namespace MyCreek.SysAdmin
             return data;
         }
 
-        public async Task CreateOrEditField(FieldDto input)
+        public async Task CreateOrEditField(FieldInput input)
         {
-            if (input.Id > 0)
+            if (input.id > 0)
             {
-                await CreateField(input);
+                await UpdateField(input);
             }
             else
             {
@@ -173,14 +173,26 @@ namespace MyCreek.SysAdmin
             }
         }
 
-        private async Task CreateField(FieldDto input)
+        private async Task UpdateField(FieldInput input)
         {
 
         }
 
-        public  async Task<FieldDto> GetField(FieldDto input)
+        private async Task CreateField(FieldInput input)
         {
-            var query =await _fieldRepository.SingleAsync(c=>c.Id== input.Id);
+            var obj = new Field();
+            obj.ColName = input.ColName;
+            obj.ColType = input.ColType;
+            obj.IsNull = input.IsNull;
+            obj.Order = 1;
+            obj.MenuItemDefine_MenuGuid = input.MenuItemDefine_MenuGuid;
+            await _fieldRepository.InsertAsync(obj);
+            await CurrentUnitOfWork.SaveChangesAsync();
+        }
+
+        public async Task<FieldDto> GetField(FieldDto input)
+        {
+            var query = await _fieldRepository.SingleAsync(c => c.Id == input.Id);
             var data = query.MapTo<FieldDto>();
             return data;
         }

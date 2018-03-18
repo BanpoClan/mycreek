@@ -1,24 +1,23 @@
-﻿using Abp.Domain.Entities;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyCreek.Modules.SysAdmin
+namespace MyCreek.SysAdmin.Dto
 {
-    /// <summary>
-    /// 数据库列对象 
-    /// </summary>
-    public class Field : Entity
+
+   
+
+    public  class FieldInput
     {
+        public int id { get; set; }
         public string ColName { get; set; }
         public string ColType { get; set; }
-        public int Order { get; set; }
         public bool IsNull { get; set; }
+        public int Order { get; set; }
+        
 
         public string MenuItemDefine_MenuGuid { get; set; }
-        
     }
 }

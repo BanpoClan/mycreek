@@ -248,6 +248,10 @@
     <Compile Include="Migrations\201803171327075_修改外键关系.Designer.cs">
       <DependentUpon>201803171327075_修改外键关系.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803180828574_修改field字段.cs" />
+    <Compile Include="Migrations\201803180828574_修改field字段.Designer.cs">
+      <DependentUpon>201803180828574_修改field字段.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyCreekDataModule.cs" />
@@ -300,6 +304,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201803171327075_修改外键关系.resx">
       <DependentUpon>201803171327075_修改外键关系.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803180828574_修改field字段.resx">
+      <DependentUpon>201803180828574_修改field字段.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

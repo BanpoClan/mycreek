@@ -2060,6 +2060,7 @@
     <Content Include="lib\jquery\src\exports\amd.js" />
     <Content Include="lib\jquery\src\exports\global.js" />
     <Content Include="lib\jquery\src\intro.js" />
+    <Content Include="Scripts\jquery-custom.js" />
     <Content Include="lib\jquery\src\jquery.js" />
     <Content Include="lib\jquery\src\manipulation.js" />
     <Content Include="lib\jquery\src\manipulation\buildFragment.js" />

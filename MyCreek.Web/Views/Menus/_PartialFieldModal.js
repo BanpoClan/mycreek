@@ -32,13 +32,18 @@
                 return;
             }
 
-            var field = form.serializeFormToObject();
-
+            var obj = form.serializeFormToObject();
+            if (field.IsNull == "on") 
+            {
+                obj.IsNull = true;
+            }
+            else {
+                obj.IsNull = false;
+            }
+            
             _modalManager.setBusy(true);
-            _roleService.createOrEditField({
-                field: field,
-            }).done(function () {
-                abp.notify.info(app.localize('SavedSuccessfully'));
+            _service.createOrEditField(obj).done(function () {
+                abp.notify.info('SavedSuccessfully');
                 _modalManager.close();
                 abp.event.trigger('app.createOrEditRoleModalSaved');
             }).always(function () {

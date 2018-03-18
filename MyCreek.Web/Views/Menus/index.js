@@ -12,7 +12,9 @@
         function submit() {
             var _$form = $("#form_validation");
             var menu = _$form.serializeFormToObject();
+
             $(".page-loader-wrapper").show();
+            debugger;
             _service.addAdditional(
                 menu
             ).done(function () {
@@ -21,7 +23,14 @@
             }); 
         }
         $("#submit").on("click", function () {
-            submit();
+            var menuGuid = $("input[name='MenuGuid']").val();
+            if (menuGuid) {
+                submit();
+            }
+            else {
+                abp.message.info('请选择一个功能节点!');
+            }
+            
         });
 
         var _createOrEditModal = new app.ModalManager({
