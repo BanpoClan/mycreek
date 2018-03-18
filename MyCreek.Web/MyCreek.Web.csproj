@@ -3063,6 +3063,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\ModalManager.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\moment-with-locales.js" />
     <Content Include="Scripts\moment-with-locales.min.js" />
@@ -3082,6 +3083,7 @@
     <Content Include="Scripts\sweetalert\sweet-alert.min.js" />
     <Content Include="Scripts\toastr.js" />
     <Content Include="Scripts\toastr.min.js" />
+    <Content Include="Scripts\underscore.js" />
     <Content Include="Views\Account\Login.css">
       <DependentUpon>Login.less</DependentUpon>
     </Content>
@@ -3099,7 +3101,10 @@
     <Content Include="Views\Account\_TenantChange.js" />
     <Content Include="Views\Account\_TenantChangeModal.js" />
     <Content Include="Views\Home\Index.js" />
+    <Content Include="Views\Menus\creekTable.js" />
+    <Content Include="Views\Menus\creekTree.js" />
     <Content Include="Views\Menus\index.js" />
+    <Content Include="Views\Menus\_PartialFieldModal.js" />
     <Content Include="Views\Roles\Index.js" />
     <Content Include="Views\Roles\_EditRoleModal.js" />
     <Content Include="Views\Shared\_Layout.css" />
@@ -3275,6 +3280,7 @@
     <Content Include="Views\Menus\Index.cshtml" />
     <Content Include="Views\Menus\_PartialFieldMgr.cshtml" />
     <Content Include="Views\Menus\_PartialBasicInfo.cshtml" />
+    <Content Include="Views\Menus\_PartialFieldModal.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
