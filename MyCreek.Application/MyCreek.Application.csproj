@@ -298,7 +298,8 @@
     <Compile Include="SysAdmin\Dto\AdditionalInput.cs" />
     <Compile Include="SysAdmin\Dto\CreateOrEditInput.cs" />
     <Compile Include="SysAdmin\Dto\DeleteMenuInput.cs" />
-    <Compile Include="SysAdmin\Dto\GetMenuItemInput.cs" />
+    <Compile Include="SysAdmin\Dto\FieldDto.cs" />
+    <Compile Include="SysAdmin\Dto\GetFieldPagedInput.cs" />
     <Compile Include="SysAdmin\Dto\MenuItemDto.cs" />
     <Compile Include="SysAdmin\IMenuMgrAppService.cs" />
     <Compile Include="SysAdmin\MenuMgrAppService.cs" />

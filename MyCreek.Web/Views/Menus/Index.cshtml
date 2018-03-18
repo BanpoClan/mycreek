@@ -10,7 +10,8 @@
         padding-bottom: 10px;
     }
 </style>
-<link href="~/lib/table/jtable.2.4.0/themes/metro/blue/jtable.css" rel="stylesheet" type="text/css" />
+<link href="~/lib/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="~/lib/jquery-jtable/themes/metro/blue/jtable.css" rel="stylesheet" type="text/css" />
 
 <div class="row clearfix">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -29,102 +30,40 @@
                     </div>
                     <div id="basic_setting" class="col-lg-9">
 
-                        <form id="form_validation">
-                            <!-- Nav tabs -->
-                            <ul class="nav nav-tabs tab-col-teal" role="tablist">
-                                <li role="presentation" class="active"><a href="#basic" data-toggle="tab">基本设置</a></li>
-                                <li role="presentation"><a href="#datasource" data-toggle="tab">数据源</a></li>
-                                <li role="presentation"><a href="#field" data-toggle="tab">字段管理</a></li>
-                                <li role="presentation"><a href="#general" data-toggle="tab">通用表单模板</a></li>
-                                <li role="presentation"><a href="#create" data-toggle="tab">新增表单模板</a></li>
-                                <li role="presentation"><a href="#update" data-toggle="tab">编辑表单模板</a></li>
-                            </ul>
-                            <!-- Tab panes -->
-                            <div class="tab-content">
-                                <div role="tabpanel" class="tab-pane fade in active" id="basic">
-
-                                    <div style="display:none">
-                                        <input type="text" class="form-control" name="MenuGuid">
-                                        <input type="text" class="form-control" name="ParentMenuGuid">
-                                        <input type="text" class="form-control" name="DisplayName">
-                                    </div>
-
-                                    <div class="form-group form-float">
-                                        <div class="form-line">
-                                            <input type="text" class="form-control" name="Url" required>
-                                            <label class="form-label">Url</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group form-float">
-                                        <div class="form-line">
-                                            <input type="text" class="form-control" name="Icon">
-                                            <label class="form-label">Icon</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group form-float">
-                                        <div class="form-line">
-                                            <input type="text" class="form-control" name="Order">
-                                            <label class="form-label">序号</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div role="tabpanel" class="tab-pane fade" id="datasource">
-                                    <div class="form-group form-float">
-                                        <small class="label label-success labelex" style="">数据源：该功能列表页面将默认显示关联数据库表的数据。若是设置了SQL，视图，过程，那么取数据的优先级为：SQL->视图->过程</small>
-                                    </div>
-
-                                    <div class="form-group form-float">
-                                        <div class="form-line">
-                                            <input type="text" class="form-control" name="DBTable" required>
-                                            <label class="form-label">关联数据库表</label>
-                                        </div>
-                                    </div>
-                                    <div class="form-group form-float">
-                                        <div class="form-line">
-                                            <input type="text" class="form-control" name="ExecSQL">
-                                            <label class="form-label">关联SQL</label>
-                                        </div>
-                                    </div>
-                                    <div class="form-group form-float">
-                                        <div class="form-line">
-                                            <input type="text" class="form-control" name="DBView">
-                                            <label class="form-label">关联视图</label>
-                                        </div>
-                                    </div>
-                                    <div class="form-group form-float">
-                                        <div class="form-line">
-                                            <input type="text" class="form-control" name="Procedure">
-                                            <label class="form-label">关联存储过程</label>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="form-group form-float">
-                                        <div class="form-line">
-                                            <textarea name="Description" cols="30" rows="5" class="form-control no-resize"></textarea>
-                                            <label class="form-label">功能描述</label>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div role="tabpanel" class="tab-pane fade" id="field">
-                                    @Html.Partial("~/Views/Menus/_PartialFieldMgr.cshtml")
-                                </div>
-                                <div role="tabpanel" class="tab-pane fade" id="general">
-                                    ssssssssssss
-                                </div>
-                                <div role="tabpanel" class="tab-pane fade" id="create">
-                                    ssssssssssss
-                                </div>
-                                <div role="tabpanel" class="tab-pane fade" id="update">
-                                    ssssssssssss
-                                </div>
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs tab-col-teal" role="tablist">
+                            <li role="presentation" class="active"><a href="#basic" data-toggle="tab">基本设置</a></li>
+                            <li role="presentation"><a href="#field" data-toggle="tab">字段管理</a></li>
+                            <li role="presentation"><a href="#list" data-toggle="tab">列表模板</a></li>
+                            <li role="presentation"><a href="#general" data-toggle="tab">通用表单模板</a></li>
+                            <li role="presentation"><a href="#create" data-toggle="tab">新增表单模板</a></li>
+                            <li role="presentation"><a href="#update" data-toggle="tab">编辑表单模板</a></li>
+                        </ul>
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane fade in active" id="basic">
+                                @Html.Partial("~/Views/Menus/_PartialBasicInfo.cshtml")
                             </div>
-                            <button class="btn btn-primary waves-effect" type="button" id="submit">提交</button>
-                        </form>
+
+                            <div role="tabpanel" class="tab-pane fade" id="field">
+                                @Html.Partial("~/Views/Menus/_PartialFieldMgr.cshtml")
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="list">
+                                ssssssssssss
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="general">
+                                ssssssssssss
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="create">
+                                ssssssssssss
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="update">
+                                ssssssssssss
+                            </div>
+                        </div>
+
+
+
                     </div>
                 </div>
 
@@ -143,14 +82,16 @@
     <script type="text/javascript" src="~/lib/zTree/js/jquery.ztree.core.js"></script>
     <script type="text/javascript" src="~/lib/zTree/js/jquery.ztree.excheck.js"></script>
     <script type="text/javascript" src="~/lib/zTree/js/jquery.ztree.exedit.js"></script>
-    <script type="text/javascript" src="~/lib/table/jtable.2.4.0/jquery-ui-1.10.0.js"></script>
-    <script type="text/javascript" src="~/lib/table/jtable.2.4.0/jquery.jtable.js"></script>
-    <script type="text/javascript" src="~/lib/table/jtable.2.4.0/localization/jquery.jtable.zh-CN.js"></script>
-    @*<script type="text/javascript" src="~/lib/table/mindmup-editabletable.js"></script>*@
-    @*<script type="text/javascript" src="~/lib/table/editabletable.js"></script>*@
-    @Html.IncludeScript("~/Views/Menus/Index.js")
+    <script type="text/javascript" src="~/lib/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="~/lib/jquery-jtable/jquery.jtable.min.js"></script>
+    <script type="text/javascript" src="~/lib/jquery-jtable/extensions/jquery.jtable.record-actions.js"></script>
+    <script type="text/javascript" src="~/Abp/Framework/scripts/libs/abp.jtable.js"></script>
+    <script type="text/javascript" src="~/Views/Menus/index.js"></script>
     <SCRIPT type="text/javascript">
 
     </SCRIPT>
 
 }
+
+
+

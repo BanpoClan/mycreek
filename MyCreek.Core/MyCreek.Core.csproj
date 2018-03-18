@@ -188,7 +188,9 @@
   <ItemGroup>
     <Compile Include="Localization\DBLocalizableString.cs" />
     <Compile Include="Modules\CRM\CustomerInfo.cs" />
+    <Compile Include="Modules\Repository\IFieldsMgrRepository.cs" />
     <Compile Include="Modules\Repository\IMenuMgrRepository.cs" />
+    <Compile Include="Modules\SysAdmin\Field.cs" />
     <Compile Include="Modules\SysAdmin\MenuItemDefine.cs" />
     <Compile Include="MyCreekConsts.cs" />
     <Compile Include="MyCreekCoreModule.cs" />

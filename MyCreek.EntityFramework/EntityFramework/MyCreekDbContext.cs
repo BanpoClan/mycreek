@@ -21,6 +21,8 @@ namespace MyCreek.EntityFramework
 
         public virtual IDbSet<CustomerInfo> CustomerInfoes { get; set; }
         public virtual IDbSet<MenuItemDefine> MenuItemDefines { get; set; }
+        public virtual IDbSet<Field> Fields { get; set; }
+        
         public MyCreekDbContext()
             : base("Default")
         {

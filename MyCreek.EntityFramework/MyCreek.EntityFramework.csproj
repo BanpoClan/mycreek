@@ -205,6 +205,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntityFramework\MyCreekDbContext.cs" />
+    <Compile Include="EntityFramework\Repositories\FieldsMgrRepository.cs" />
     <Compile Include="EntityFramework\Repositories\MenuMgrRepository.cs" />
     <Compile Include="EntityFramework\Repositories\MyCreekRepositoryBase.cs" />
     <Compile Include="Migrations\201707261347311_Initial_Migration.cs" />
@@ -238,6 +239,14 @@
     <Compile Include="Migrations\201803170852288_修改字段.cs" />
     <Compile Include="Migrations\201803170852288_修改字段.Designer.cs">
       <DependentUpon>201803170852288_修改字段.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803171318489_添加列对象管理表.cs" />
+    <Compile Include="Migrations\201803171318489_添加列对象管理表.Designer.cs">
+      <DependentUpon>201803171318489_添加列对象管理表.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803171327075_修改外键关系.cs" />
+    <Compile Include="Migrations\201803171327075_修改外键关系.Designer.cs">
+      <DependentUpon>201803171327075_修改外键关系.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
@@ -285,6 +294,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201803170852288_修改字段.resx">
       <DependentUpon>201803170852288_修改字段.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803171318489_添加列对象管理表.resx">
+      <DependentUpon>201803171318489_添加列对象管理表.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803171327075_修改外键关系.resx">
+      <DependentUpon>201803171327075_修改外键关系.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

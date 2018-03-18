@@ -17,5 +17,8 @@ namespace MyCreek.SysAdmin
         Task CreateOrEdit(CreateOrEditInput input);
         Task Delete(DeleteMenuInput input);
         Task AddAdditional(AdditionalInput input);
+
+        PagedResultDto<FieldDto> GetFields(GetFieldPagedInput input);
+ 
     }
 }

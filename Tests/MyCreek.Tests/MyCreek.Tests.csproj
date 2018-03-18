@@ -244,6 +244,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Menus\MenusAppService_Tests.cs" />
     <Compile Include="MyCreekTestModule.cs" />
     <Compile Include="MultiTenantFactAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
