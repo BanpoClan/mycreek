@@ -15,6 +15,8 @@ namespace MyCreek.SysAdmin.Dto
         public string ColName { get; set; }
         public string ColType { get; set; }
         public bool IsNull { get; set; }
+        public int Order { get; set; }
+        
 
         public string MenuItemDefine_MenuGuid { get; set; }
     }

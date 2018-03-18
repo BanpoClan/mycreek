@@ -26,11 +26,14 @@ namespace MyCreek.SysAdmin
         private readonly IMenuMgrRepository _menuRepository;
         private readonly IFieldsMgrRepository _fieldRepository;
         private readonly PinYinConverter _converter;
-        public MenuMgrAppService(IMenuMgrRepository menuRepository, IFieldsMgrRepository fieldRepository)
+        private readonly IDBStructOperateRepository _structOperateRepository;
+
+        public MenuMgrAppService(IMenuMgrRepository menuRepository, IFieldsMgrRepository fieldRepository, IDBStructOperateRepository structOperateRepository)
         {
             _menuRepository = menuRepository;
             _converter = new PinYinConverter();
             _fieldRepository = fieldRepository;
+            _structOperateRepository = structOperateRepository;
         }
 
         public async Task CreateOrEdit(CreateOrEditInput input)
@@ -175,7 +178,7 @@ namespace MyCreek.SysAdmin
 
         private async Task UpdateField(FieldInput input)
         {
-            var obj =  _fieldRepository.Get(input.id);
+            var obj = _fieldRepository.Get(input.id);
             if (obj != null)
             {
                 obj.ColName = input.ColName;
@@ -213,6 +216,19 @@ namespace MyCreek.SysAdmin
                 await _fieldRepository.DeleteAsync(obj);
             }
 
+        }
+
+        public async Task CreateCustomFeatureStruct(string menuGuid)
+        {
+            //通过Guid获取到对应的菜单的表
+            var menu = await _menuRepository.GetSingleMenuItemDefine(menuGuid);
+            //公国guid获取到对应的字段及类型
+            var filds = await _fieldRepository.GetFields(menuGuid);
+            //交给dapper创建数据库表
+            var dbStruc = new CustomFeatureCoreStruct();
+            dbStruc.MenuItemDefine = menu;
+            dbStruc.Fields = filds;
+            await _structOperateRepository.CreateDbStruct(dbStruc);
         }
     }
 }

@@ -42,6 +42,10 @@ namespace MyCreek.Modules.SysAdmin
         /// </summary>
         public string Procedure { get; set; }
 
+        public string IndexPageTemplate { get; set; }
+        public string CreatePageTemplate { get; set; }
+        public string UpdatePageTemplate { get; set; }
+        public string GeneralPageTemplate { get; set; }
 
 
     }

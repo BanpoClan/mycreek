@@ -15,6 +15,7 @@ namespace MyCreek.Modules.SysAdmin
     {
         public string ColName { get; set; }
         public string ColType { get; set; }
+
         public int Order { get; set; }
         public bool IsNull { get; set; }
 

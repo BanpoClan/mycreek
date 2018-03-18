@@ -52,11 +52,22 @@
         });
 
 
+        $("#btnCreateDBStruct").on("click", function () {
+            var menuGuid = $("input[name='MenuGuid']").val();
+            if (menuGuid) {
+                _service.createCustomFeatureStruct(menuGuid).done(function (result) {
+                    abp.notify.info('SavedSuccessfully');
+                });
+            }
+            else {
+                abp.message.info('请选择一个功能节点!');
+            }
+
+        });
+
         abp.event.on('app.createOrEditRoleModalSaved', function () {
             tableControl.initTable(_service, _createOrEditModal);
         });
-
-       
        
     });
 

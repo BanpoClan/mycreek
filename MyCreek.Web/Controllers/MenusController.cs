@@ -32,6 +32,7 @@ namespace MyCreek.Web.Controllers
             ViewBag.IsNull = false;
             ViewBag.MenuItemDefine_MenuGuid = menuGuid;
             ViewBag.id = id;
+            ViewBag.Order = 0;
 
             if (id > 0)
             {
@@ -40,6 +41,7 @@ namespace MyCreek.Web.Controllers
                 ViewBag.ColName = data.ColName;
                 ViewBag.ColType = data.ColType;
                 ViewBag.IsNull = data.IsNull;
+                ViewBag.Order = data.Order;
                 ViewBag.MenuItemDefine_MenuGuid = data.MenuItemDefine_MenuGuid;
             }
             return PartialView("_PartialFieldModal");

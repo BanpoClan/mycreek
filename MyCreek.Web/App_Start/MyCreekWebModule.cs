@@ -14,6 +14,7 @@ using Castle.MicroKernel.Registration;
 using Hangfire;
 using Microsoft.Owin.Security;
 using Abp.AutoMapper;
+using Abp.Dapper;
 
 namespace MyCreek.Web
 {
@@ -23,7 +24,7 @@ namespace MyCreek.Web
         typeof(MyCreekWebApiModule),
         typeof(AbpWebSignalRModule),
         //typeof(AbpHangfireModule), - ENABLE TO USE HANGFIRE INSTEAD OF DEFAULT JOB MANAGER
-        typeof(AbpWebMvcModule), typeof(AbpAutoMapperModule))]
+        typeof(AbpWebMvcModule), typeof(AbpAutoMapperModule),typeof(AbpDapperModule))]
     public class MyCreekWebModule : AbpModule
     {
         public override void PreInitialize()

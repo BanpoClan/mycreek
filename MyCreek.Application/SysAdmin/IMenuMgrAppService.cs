@@ -24,5 +24,7 @@ namespace MyCreek.SysAdmin
         Task<FieldDto> GetField(FieldDto input);
 
         Task DeleField(int id);
+
+        Task CreateCustomFeatureStruct(string menuGuid);
     }
 }
