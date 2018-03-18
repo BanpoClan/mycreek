@@ -22,5 +22,7 @@ namespace MyCreek.SysAdmin
         Task CreateOrEditField(FieldInput input);
 
         Task<FieldDto> GetField(FieldDto input);
+
+        Task DeleField(int id);
     }
 }

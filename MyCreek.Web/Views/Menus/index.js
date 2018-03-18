@@ -2,19 +2,24 @@
     $(function () {
         var _service = abp.services.app.menuMgr;
 
+        var _createOrEditModal = new app.ModalManager({
+            viewUrl: abp.appPath + 'menus/PartialFieldModal',
+            scriptUrl: abp.appPath + 'Views/Menus/_PartialFieldModal.js',
+            modalClass: 'CreateOrEditModal'
+        });
 
         function initPage(service) {
             treeControl.getMenuList(service);
-            tableControl.initTable(service);
+            tableControl.initTable(service, _createOrEditModal);
         }
 
-        initPage(_service);
+        initPage(_service, _createOrEditModal);
+
         function submit() {
             var _$form = $("#form_validation");
             var menu = _$form.serializeFormToObject();
 
             $(".page-loader-wrapper").show();
-            debugger;
             _service.addAdditional(
                 menu
             ).done(function () {
@@ -33,11 +38,7 @@
             
         });
 
-        var _createOrEditModal = new app.ModalManager({
-            viewUrl: abp.appPath + 'menus/PartialFieldModal',
-            scriptUrl: abp.appPath + 'Views/Menus/_PartialFieldModal.js',
-            modalClass: 'CreateOrEditModal'
-        });
+        
 
         $("#btnAddField").on("click", function () {
             var menuGuid = $("input[name='MenuGuid']").val();
@@ -50,8 +51,13 @@
            
         });
 
-        
 
+        abp.event.on('app.createOrEditRoleModalSaved', function () {
+            tableControl.initTable(_service, _createOrEditModal);
+        });
+
+       
+       
     });
 
 

@@ -15,6 +15,11 @@
 
         this.setFoucs = function (form) {
             $(form).find('input').each(function () {
+                if ($(this).val().length > 0)
+                {
+                    $(this).parent().addClass('focused');
+                }
+
                 $(this).focus(function () {
                     $(this).parent().addClass('focused');
                 });

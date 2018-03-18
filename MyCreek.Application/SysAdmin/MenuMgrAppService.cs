@@ -175,7 +175,15 @@ namespace MyCreek.SysAdmin
 
         private async Task UpdateField(FieldInput input)
         {
-
+            var obj =  _fieldRepository.Get(input.id);
+            if (obj != null)
+            {
+                obj.ColName = input.ColName;
+                obj.ColType = input.ColType;
+                obj.IsNull = input.IsNull;
+                obj.Order = 1;
+                await _fieldRepository.UpdateAsync(obj);
+            }
         }
 
         private async Task CreateField(FieldInput input)
@@ -195,6 +203,16 @@ namespace MyCreek.SysAdmin
             var query = await _fieldRepository.SingleAsync(c => c.Id == input.Id);
             var data = query.MapTo<FieldDto>();
             return data;
+        }
+
+        public async Task DeleField(int id)
+        {
+            var obj = _fieldRepository.Get(id);
+            if (obj != null)
+            {
+                await _fieldRepository.DeleteAsync(obj);
+            }
+
         }
     }
 }
