@@ -160,5 +160,29 @@ namespace MyCreek.SysAdmin
             var data = new PagedResultDto<FieldDto>(count, list.MapTo<List<FieldDto>>());
             return data;
         }
+
+        public async Task CreateOrEditField(FieldDto input)
+        {
+            if (input.Id > 0)
+            {
+                await CreateField(input);
+            }
+            else
+            {
+                await CreateField(input);
+            }
+        }
+
+        private async Task CreateField(FieldDto input)
+        {
+
+        }
+
+        public  async Task<FieldDto> GetField(FieldDto input)
+        {
+            var query =await _fieldRepository.SingleAsync(c=>c.Id== input.Id);
+            var data = query.MapTo<FieldDto>();
+            return data;
+        }
     }
 }

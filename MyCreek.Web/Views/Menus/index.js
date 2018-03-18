@@ -27,10 +27,21 @@
         var _createOrEditModal = new app.ModalManager({
             viewUrl: abp.appPath + 'menus/PartialFieldModal',
             scriptUrl: abp.appPath + 'Views/Menus/_PartialFieldModal.js',
-            modalClass: 'CreateOrEditRoleModal'
+            modalClass: 'CreateOrEditModal'
         });
 
-        _createOrEditModal.open();
+        $("#btnAddField").on("click", function () {
+            var menuGuid = $("input[name='MenuGuid']").val();
+            if (menuGuid) {
+                _createOrEditModal.open({ id: 0, menuGuid: menuGuid });
+            }
+            else {
+                abp.message.info('请选择一个功能节点!');
+            }
+           
+        });
+
+        
 
     });
 
