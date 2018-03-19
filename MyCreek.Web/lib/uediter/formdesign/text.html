@@ -110,7 +110,6 @@
             }
         };
         dialog.onok = function () {
-            debugger;
             if ($G('orgname').value == '') {
                 alert('请输入控件名称');
                 return false;
@@ -155,7 +154,6 @@
                     }
                     //oNode.setAttribute('style',style );
                     //oNode.style.cssText=style;//ie7
-                    debugger;
                     editor.execCommand('insertHtml', oNode.outerHTML);
                 } catch (e) {
                     try {

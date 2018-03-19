@@ -39,7 +39,6 @@
 
                     if (treeNode.id.length > 10) {
                         service.delete({ MenuGuid: treeNode.id }).done(function () {
-                            debugger;
                             abp.notify.info(abp.localization.localize('SavedSuccessfully'));
                             treeControl.getMenuList(service);
                         });
