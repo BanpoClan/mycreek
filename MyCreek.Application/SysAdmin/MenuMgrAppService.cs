@@ -238,5 +238,35 @@ namespace MyCreek.SysAdmin
             var dbStruc = await GetMenuInfo(menuGuid);
             await _structOperateRepository.CreateDbStruct(dbStruc);
         }
+
+        public async Task UpdateMenuTemplate(TemplateInput input)
+        {
+            if (!string.IsNullOrEmpty(input.MenuGuid))
+            {
+                var menuItemDefine = await _menuRepository.SingleAsync(c=>c.MenuGuid==input.MenuGuid);
+                if (menuItemDefine != null)
+                {
+                    if (input.TemplType == "IndexPageTemplate")
+                    {
+                        menuItemDefine.IndexPageTemplate = input.Content;
+                    }
+                    else if (input.TemplType == "CreatePageTemplate")
+                    {
+                        menuItemDefine.CreatePageTemplate = input.Content;
+                    }
+                    else if (input.TemplType == "UpdatePageTemplate")
+                    {
+                        menuItemDefine.UpdatePageTemplate = input.Content;
+
+                    }
+                    else if (input.TemplType == "GeneralPageTemplate")
+                    {
+                        menuItemDefine.GeneralPageTemplate = input.Content;
+                    }
+                 
+                    await _menuRepository.UpdateAsync(menuItemDefine);
+                }
+            }
+        }
     }
 }

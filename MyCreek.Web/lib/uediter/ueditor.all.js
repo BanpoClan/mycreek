@@ -7238,7 +7238,7 @@ var fillCharReg = new RegExp(domUtils.fillChar, 'g');
             }
             me.fireEvent('beforegetcontent');
             var root = UE.htmlparser(me.body.innerHTML,ignoreBlank);
-            me.filterOutputRule(root);
+            //me.filterOutputRule(root);
             me.fireEvent('aftergetcontent', cmd,root);
             return  root.toHtml(formatter);
         },
@@ -14273,7 +14273,7 @@ UE.plugins['undo'] = function () {
             me.fireEvent('beforegetscene');
             var root = UE.htmlparser(me.body.innerHTML);
             me.options.autoClearEmptyNode = false;
-            me.filterOutputRule(root);
+            //me.filterOutputRule(root);
             me.options.autoClearEmptyNode = orgState;
             var cont = root.toHtml();
             //trace:3461

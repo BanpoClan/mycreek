@@ -311,6 +311,7 @@
     <Compile Include="SysAdmin\Dto\FieldInput.cs" />
     <Compile Include="SysAdmin\Dto\GetFieldPagedInput.cs" />
     <Compile Include="SysAdmin\Dto\MenuItemDto.cs" />
+    <Compile Include="SysAdmin\Dto\TemplateInput.cs" />
     <Compile Include="SysAdmin\IMenuMgrAppService.cs" />
     <Compile Include="SysAdmin\IMyFeatureAppService.cs" />
     <Compile Include="SysAdmin\MenuMgrAppService.cs" />

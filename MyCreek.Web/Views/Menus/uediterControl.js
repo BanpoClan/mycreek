@@ -7,7 +7,7 @@
         for (var i = 0; i < 4; i++) {
             var editor = uediterControl.initEditor(list[i]);
             editorDic[list[i]] = editor;
-            
+
         }
         uediterControl.editorDic = editorDic;
 
@@ -16,9 +16,9 @@
             var key = $(btn[i]).attr('editor');
             var editor = editorDic[key];
             (function (editor) {
-      
+
                 btn[i].onclick = function () {
-                   
+
                     var func = $(this).attr('func');
                     if (func == 'preview') {
                         leipiFormDesign.fnReview(editor);
@@ -29,14 +29,14 @@
                     else {
                         leipiFormDesign.exec(editor, $(this).attr('inputType'));
                     }
-                    
-                    
+
+
                 };
             })(editor);
-        }   
+        }
 
 
-       
+
     },
     initEditor: function (id) {
         var leipiEditor = UE.getEditor(id, {
@@ -57,7 +57,7 @@
             ///,iframeCssUrl:"css/bootstrap/css/bootstrap.css" //引入自身 css使编辑器兼容你网站css
             //更多其他参数，请参考ueditor.config.js中的配置项
         });
- 
+
         return leipiEditor;
 
     }
@@ -67,7 +67,7 @@
 
 var leipiFormDesign = {
     /*执行控件*/
-    exec: function (editor,method) {
+    exec: function (editor, method) {
         editor.execCommand(method);
     },
     /*
@@ -233,8 +233,8 @@ var leipiFormDesign = {
         return JSON.stringify(parse_form);
     },
     /*type  =  save 保存设计 versions 保存版本  close关闭 */
-    fnCheckForm: function (leipiEditor,type) {
-        
+    fnCheckForm: function (leipiEditor, type) {
+
         if (leipiEditor.queryCommandState('source'))
             leipiEditor.execCommand('source');//切换到编辑模式才提交，否则有bug
 
@@ -253,18 +253,32 @@ var leipiFormDesign = {
             formeditor = leipiEditor.getContent();
             //解析表单设计器控件
             var parse_form = this.parse_form(formeditor, fields);
-            alert(parse_form);
-
+            var _service = abp.services.app.menuMgr;
+            var data = {};
+            data['TemplType'] = leipiEditor.key;
+            data['Content'] = formeditor;
+            data['MenuGuid'] = $("input[name=MenuGuid]").val();
+            if ($.trim(data['MenuGuid']).length>0) {
+                _service.updateMenuTemplate(data).done(function () {
+                    abp.notify.info(abp.localization.localize('SavedSuccessfully'));
+                });
+            }
+            else {
+                
+                abp.message.info('请选择一个功能节点!');
+                return false;
+            }
 
         } else {
-            alert('表单内容不能为空！')
+            //alert('表单内容不能为空！')
+            abp.message.info('表单内容不能为空!');
             $('#submitbtn').button('reset');
             return false;
         }
     },
     /*预览表单*/
     fnReview: function (leipiEditor) {
-     
+
         if (leipiEditor.queryCommandState('source'))
             leipiEditor.execCommand('source');/*切换到编辑模式才提交，否则部分浏览器有bug*/
 

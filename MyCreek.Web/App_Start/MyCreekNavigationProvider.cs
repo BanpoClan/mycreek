@@ -68,7 +68,7 @@ namespace MyCreek.Web
                 var subMenuItem = new MenuItemDefinition(
                            subItem.Name,
                            L(subItem.DisplayName),
-                           url: subItem.Url + "/index?id=" + item.Id,
+                           url: subItem.Url + "/index?menuGuid=" + subItem.MenuGuid,
                            icon: subItem.Icon
                        );
                 menuItem.AddItem(subMenuItem);

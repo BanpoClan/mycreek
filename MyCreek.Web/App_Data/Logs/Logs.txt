@@ -5976,3 +5976,608 @@ DEBUG 2018-03-19 17:26:50,929 [59   ] Abp.Web.SignalR.Hubs.AbpCommonHub        -
 DEBUG 2018-03-19 17:27:50,242 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b43cc550-ff3f-4085-927c-62608ed71103
 DEBUG 2018-03-19 17:27:51,011 [53   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2988d05d-6720-428c-96c3-c697631f94bb","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T17:27:51.0108373+08:00","Properties":{}}
 DEBUG 2018-03-19 17:27:51,031 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2988d05d-6720-428c-96c3-c697631f94bb
+DEBUG 2018-03-19 18:54:21,945 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2988d05d-6720-428c-96c3-c697631f94bb
+DEBUG 2018-03-19 18:54:22,434 [59   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e656f4de-5d2e-4e77-9114-847edf1512b3","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T18:54:22.4349497+08:00","Properties":{}}
+DEBUG 2018-03-19 18:54:22,457 [53   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e656f4de-5d2e-4e77-9114-847edf1512b3
+DEBUG 2018-03-19 18:54:25,132 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e656f4de-5d2e-4e77-9114-847edf1512b3
+DEBUG 2018-03-19 18:54:25,421 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"145f25f6-bca8-4c9e-ae3b-04a55d28b91a","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T18:54:25.4213971+08:00","Properties":{}}
+DEBUG 2018-03-19 18:54:25,434 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 145f25f6-bca8-4c9e-ae3b-04a55d28b91a
+DEBUG 2018-03-19 18:55:24,403 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 145f25f6-bca8-4c9e-ae3b-04a55d28b91a
+DEBUG 2018-03-19 18:55:25,034 [51   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c445fd42-ecd4-4374-9403-d4000dd17b05","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T18:55:25.0343695+08:00","Properties":{}}
+DEBUG 2018-03-19 18:55:25,061 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c445fd42-ecd4-4374-9403-d4000dd17b05
+DEBUG 2018-03-19 18:55:28,169 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c445fd42-ecd4-4374-9403-d4000dd17b05
+DEBUG 2018-03-19 18:55:28,853 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f1de4a73-98b4-4d96-a554-53f9ce53c9d8","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T18:55:28.8535638+08:00","Properties":{}}
+DEBUG 2018-03-19 18:55:28,870 [90   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f1de4a73-98b4-4d96-a554-53f9ce53c9d8
+DEBUG 2018-03-19 18:58:32,666 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"432941f3-c344-40f5-a314-764c9e9fac12","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T18:58:32.6667039+08:00","Properties":{}}
+DEBUG 2018-03-19 18:58:58,063 [89   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f1de4a73-98b4-4d96-a554-53f9ce53c9d8
+DEBUG 2018-03-19 19:00:41,055 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 432941f3-c344-40f5-a314-764c9e9fac12
+DEBUG 2018-03-19 19:00:41,847 [56   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"215d4f93-573d-4af3-be2e-7084a21ab28a","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T19:00:41.8460788+08:00","Properties":{}}
+DEBUG 2018-03-19 19:00:41,866 [71   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 215d4f93-573d-4af3-be2e-7084a21ab28a
+DEBUG 2018-03-19 19:01:04,774 [48   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 215d4f93-573d-4af3-be2e-7084a21ab28a
+DEBUG 2018-03-19 19:01:05,500 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"079e2f4d-ba78-4ed1-b9d8-6f3478b2f2e8","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T19:01:05.5007314+08:00","Properties":{}}
+DEBUG 2018-03-19 19:01:05,523 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 079e2f4d-ba78-4ed1-b9d8-6f3478b2f2e8
+DEBUG 2018-03-19 19:01:55,707 [78   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 079e2f4d-ba78-4ed1-b9d8-6f3478b2f2e8
+DEBUG 2018-03-19 19:01:56,612 [96   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e7ce8acd-6230-46e9-9a72-857abc77b9a8","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T19:01:56.6122092+08:00","Properties":{}}
+DEBUG 2018-03-19 19:01:56,639 [89   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e7ce8acd-6230-46e9-9a72-857abc77b9a8
+DEBUG 2018-03-19 19:02:45,960 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-19 19:02:45,969 [1    ] Abp.Modules.AbpModuleManager             - Found 18 ABP modules in total.
+DEBUG 2018-03-19 19:02:45,975 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.Web.MyCreekWebModule, MyCreek.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:02:45,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekDataModule, MyCreek.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:02:45,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:02:45,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:02:45,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:02:45,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:02:45,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:02:45,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:02:45,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekCoreModule, MyCreek.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:02:45,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekApplicationModule, MyCreek.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:02:45,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:02:45,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.Api.MyCreekWebApiModule, MyCreek.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:02:45,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:02:45,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:02:45,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:02:45,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:02:45,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:02:45,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Dapper.AbpDapperModule, Abp.Dapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:02:45,980 [1    ] Abp.Modules.AbpModuleManager             - 18 modules loaded.
+DEBUG 2018-03-19 19:02:46,180 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 19:02:46,180 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 19:02:46,181 [1    ] o.Configuration.LanguageManagementConfig - Converted MyCreek (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 19:02:46,181 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 19:02:46,456 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MyCreek.EntityFramework.MyCreekDbContext, MyCreek.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:02:48,343 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-19 19:02:48,373 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-19 19:02:48,379 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-19 19:02:48,381 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyCreek
+DEBUG 2018-03-19 19:02:48,383 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+WARN  2018-03-19 19:02:49,752 [1    ] Abp.MultiTenancy.TenantResolver          - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpHeaderTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpHeaderTenantResolveContributor.cs:行号 33
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpHeaderTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpHeaderTenantResolveContributor.cs:行号 33
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+WARN  2018-03-19 19:02:49,760 [1    ] Abp.MultiTenancy.TenantResolver          - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpCookieTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpCookieTenantResolveContributor.cs:行号 12
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpCookieTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpCookieTenantResolveContributor.cs:行号 12
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+WARN  2018-03-19 19:02:49,770 [1    ] Abp.Auditing.AuditingHelper              - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Auditing.WebClientInfoProvider.GetClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 43
+   在 Abp.Auditing.WebClientInfoProvider.get_ClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 13
+   在 Abp.Auditing.DefaultAuditInfoProvider.Fill(AuditInfo auditInfo) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\DefaultAuditInfoProvider.cs:行号 20
+   在 Abp.Auditing.AuditingHelper.CreateAuditInfo(Type type, MethodInfo method, IDictionary`2 arguments) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\AuditingHelper.cs:行号 120
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Auditing.WebClientInfoProvider.GetClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 43
+   在 Abp.Auditing.WebClientInfoProvider.get_ClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 13
+   在 Abp.Auditing.DefaultAuditInfoProvider.Fill(AuditInfo auditInfo) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\DefaultAuditInfoProvider.cs:行号 20
+   在 Abp.Auditing.AuditingHelper.CreateAuditInfo(Type type, MethodInfo method, IDictionary`2 arguments) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\AuditingHelper.cs:行号 120
+DEBUG 2018-03-19 19:02:52,386 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-19 19:02:52,420 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 15 classes define auto mapping attributes
+DEBUG 2018-03-19 19:02:52,420 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-19 19:02:52,423 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-19 19:02:52,423 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.CreateUserDto
+DEBUG 2018-03-19 19:02:52,423 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.UpdateUserDto
+DEBUG 2018-03-19 19:02:52,423 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.UserDto
+DEBUG 2018-03-19 19:02:52,423 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.SysAdmin.Dto.AdditionalInput
+DEBUG 2018-03-19 19:02:52,423 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.SysAdmin.Dto.FieldDto
+DEBUG 2018-03-19 19:02:52,425 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-19 19:02:52,425 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.PermissionDto
+DEBUG 2018-03-19 19:02:52,425 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.RoleDto
+DEBUG 2018-03-19 19:02:52,425 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-19 19:02:52,425 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-03-19 19:02:52,425 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-19 19:02:52,425 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-03-19 19:02:52,425 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-03-19 19:02:52,659 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-03-19 19:02:52,660 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-03-19 19:02:52,661 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.SysAdmin.IMenuMgrAppService' with service name 'app/menuMgr'.
+DEBUG 2018-03-19 19:02:52,661 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.SysAdmin.IMyFeatureAppService' with service name 'app/myFeature'.
+DEBUG 2018-03-19 19:02:52,662 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-03-19 19:02:52,663 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-03-19 19:02:52,664 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-03-19 19:02:52,664 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-03-19 19:02:53,440 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"e7ce8acd-6230-46e9-9a72-857abc77b9a8","IpAddress":null,"TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T19:02:53.4081224+08:00","Properties":{}}
+DEBUG 2018-03-19 19:02:59,678 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a5cbf85c-628e-43e1-b5bb-f2b3b54ad749","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T19:02:59.6775449+08:00","Properties":{}}
+DEBUG 2018-03-19 19:02:59,699 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a5cbf85c-628e-43e1-b5bb-f2b3b54ad749
+DEBUG 2018-03-19 19:03:35,427 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a5cbf85c-628e-43e1-b5bb-f2b3b54ad749
+DEBUG 2018-03-19 19:03:35,881 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"44017b5a-bffb-49b9-8e5e-454272bc8ea5","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T19:03:35.881108+08:00","Properties":{}}
+DEBUG 2018-03-19 19:03:35,901 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 44017b5a-bffb-49b9-8e5e-454272bc8ea5
+DEBUG 2018-03-19 19:04:51,052 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 44017b5a-bffb-49b9-8e5e-454272bc8ea5
+DEBUG 2018-03-19 19:04:51,923 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0042b1aa-8dc9-4899-a3ae-291f4a9bdf31","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T19:04:51.9238142+08:00","Properties":{}}
+DEBUG 2018-03-19 19:04:51,945 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0042b1aa-8dc9-4899-a3ae-291f4a9bdf31
+DEBUG 2018-03-19 19:08:23,770 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0042b1aa-8dc9-4899-a3ae-291f4a9bdf31
+DEBUG 2018-03-19 19:08:24,580 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"4c687e46-4cda-40d0-b645-915cc8e1241e","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T19:08:24.5809894+08:00","Properties":{}}
+DEBUG 2018-03-19 19:08:24,608 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 4c687e46-4cda-40d0-b645-915cc8e1241e
+DEBUG 2018-03-19 19:11:38,419 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a95f0a57-dd03-4a7f-9478-45c0fe6ff722","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T19:11:38.4198463+08:00","Properties":{}}
+DEBUG 2018-03-19 19:12:04,640 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 4c687e46-4cda-40d0-b645-915cc8e1241e
+DEBUG 2018-03-19 19:13:24,750 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a95f0a57-dd03-4a7f-9478-45c0fe6ff722
+DEBUG 2018-03-19 19:14:13,946 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e5eecccb-1f24-4c92-9611-b2c804135be1","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T19:14:13.9463694+08:00","Properties":{}}
+DEBUG 2018-03-19 19:14:13,972 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e5eecccb-1f24-4c92-9611-b2c804135be1
+DEBUG 2018-03-19 19:17:18,722 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"553f7edd-885c-477b-88ea-8c431a5d146d","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T19:17:18.7221666+08:00","Properties":{}}
+DEBUG 2018-03-19 19:17:18,747 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 553f7edd-885c-477b-88ea-8c431a5d146d
+DEBUG 2018-03-19 19:17:50,147 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e5eecccb-1f24-4c92-9611-b2c804135be1
+DEBUG 2018-03-19 19:19:28,656 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-19 19:19:28,784 [1    ] Abp.Modules.AbpModuleManager             - Found 18 ABP modules in total.
+DEBUG 2018-03-19 19:19:28,789 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.Web.MyCreekWebModule, MyCreek.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:19:28,791 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekDataModule, MyCreek.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:19:28,791 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:19:28,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:19:28,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:19:28,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:19:28,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:19:28,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:19:28,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekCoreModule, MyCreek.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:19:28,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekApplicationModule, MyCreek.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:19:28,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:19:28,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.Api.MyCreekWebApiModule, MyCreek.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:19:28,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:19:28,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:19:28,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:19:28,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:19:28,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:19:28,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Dapper.AbpDapperModule, Abp.Dapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:19:28,796 [1    ] Abp.Modules.AbpModuleManager             - 18 modules loaded.
+DEBUG 2018-03-19 19:19:29,116 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 19:19:29,117 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 19:19:29,117 [1    ] o.Configuration.LanguageManagementConfig - Converted MyCreek (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 19:19:29,117 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 19:19:29,368 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MyCreek.EntityFramework.MyCreekDbContext, MyCreek.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:19:29,935 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-19 19:19:29,954 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-19 19:19:29,959 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-19 19:19:29,970 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyCreek
+DEBUG 2018-03-19 19:19:29,971 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+WARN  2018-03-19 19:19:31,482 [1    ] Abp.MultiTenancy.TenantResolver          - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpHeaderTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpHeaderTenantResolveContributor.cs:行号 33
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpHeaderTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpHeaderTenantResolveContributor.cs:行号 33
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+WARN  2018-03-19 19:19:31,489 [1    ] Abp.MultiTenancy.TenantResolver          - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpCookieTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpCookieTenantResolveContributor.cs:行号 12
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpCookieTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpCookieTenantResolveContributor.cs:行号 12
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+WARN  2018-03-19 19:19:31,499 [1    ] Abp.Auditing.AuditingHelper              - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Auditing.WebClientInfoProvider.GetClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 43
+   在 Abp.Auditing.WebClientInfoProvider.get_ClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 13
+   在 Abp.Auditing.DefaultAuditInfoProvider.Fill(AuditInfo auditInfo) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\DefaultAuditInfoProvider.cs:行号 20
+   在 Abp.Auditing.AuditingHelper.CreateAuditInfo(Type type, MethodInfo method, IDictionary`2 arguments) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\AuditingHelper.cs:行号 120
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Auditing.WebClientInfoProvider.GetClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 43
+   在 Abp.Auditing.WebClientInfoProvider.get_ClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 13
+   在 Abp.Auditing.DefaultAuditInfoProvider.Fill(AuditInfo auditInfo) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\DefaultAuditInfoProvider.cs:行号 20
+   在 Abp.Auditing.AuditingHelper.CreateAuditInfo(Type type, MethodInfo method, IDictionary`2 arguments) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\AuditingHelper.cs:行号 120
+DEBUG 2018-03-19 19:19:34,445 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-19 19:19:34,479 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 15 classes define auto mapping attributes
+DEBUG 2018-03-19 19:19:34,479 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-19 19:19:34,482 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-19 19:19:34,482 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.CreateUserDto
+DEBUG 2018-03-19 19:19:34,482 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.UpdateUserDto
+DEBUG 2018-03-19 19:19:34,482 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.UserDto
+DEBUG 2018-03-19 19:19:34,482 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.SysAdmin.Dto.AdditionalInput
+DEBUG 2018-03-19 19:19:34,482 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.SysAdmin.Dto.FieldDto
+DEBUG 2018-03-19 19:19:34,482 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-19 19:19:34,482 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.PermissionDto
+DEBUG 2018-03-19 19:19:34,483 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.RoleDto
+DEBUG 2018-03-19 19:19:34,483 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-19 19:19:34,483 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-03-19 19:19:34,483 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-19 19:19:34,483 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-03-19 19:19:34,483 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-03-19 19:19:34,723 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-03-19 19:19:34,735 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-03-19 19:19:34,736 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.SysAdmin.IMenuMgrAppService' with service name 'app/menuMgr'.
+DEBUG 2018-03-19 19:19:34,737 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.SysAdmin.IMyFeatureAppService' with service name 'app/myFeature'.
+DEBUG 2018-03-19 19:19:34,738 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-03-19 19:19:34,739 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-03-19 19:19:34,740 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-03-19 19:19:34,740 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+ERROR 2018-03-19 19:19:36,779 [5    ] reek.Web.Controllers.MyFeatureController - Sequence contains no elements
+System.InvalidOperationException: Sequence contains no elements
+   在 System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<SingleAsync>d__2d`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<SingleAsync>d__18.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 120
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 MyCreek.EntityFramework.Repositories.MenuMgrRepository.<GetSingleMenuItemDefine>d__1.MoveNext() 位置 E:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.EntityFramework\EntityFramework\Repositories\MenuMgrRepository.cs:行号 23
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 120
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 MyCreek.SysAdmin.MenuMgrAppService.<GetMenuInfo>d__19.MoveNext() 位置 E:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Application\SysAdmin\MenuMgrAppService.cs:行号 225
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 120
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 91
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 120
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 91
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 MyCreek.Web.Controllers.MyFeatureController.<Index>d__2.MoveNext() 位置 E:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Controllers\MyFeatureController.cs:行号 23
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2018-03-19 19:19:38,370 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ac9d1082-4959-491e-aaa0-27158de29559","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T19:19:38.3583567+08:00","Properties":{}}
+DEBUG 2018-03-19 19:19:39,613 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ca66242e-c8f8-4432-9aba-2405383c4b16","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T19:19:39.6135333+08:00","Properties":{}}
+DEBUG 2018-03-19 19:19:39,640 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ca66242e-c8f8-4432-9aba-2405383c4b16
+DEBUG 2018-03-19 19:19:51,031 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ca66242e-c8f8-4432-9aba-2405383c4b16
+DEBUG 2018-03-19 19:19:51,461 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"eaebf991-3947-43da-95b6-5e3dae975ad4","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T19:19:51.4612677+08:00","Properties":{}}
+DEBUG 2018-03-19 19:19:51,466 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: eaebf991-3947-43da-95b6-5e3dae975ad4
+ERROR 2018-03-19 19:19:57,380 [7    ] reek.Web.Controllers.MyFeatureController - Sequence contains no elements
+System.InvalidOperationException: Sequence contains no elements
+   在 System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<SingleAsync>d__2d`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<SingleAsync>d__18.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 120
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 MyCreek.EntityFramework.Repositories.MenuMgrRepository.<GetSingleMenuItemDefine>d__1.MoveNext() 位置 E:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.EntityFramework\EntityFramework\Repositories\MenuMgrRepository.cs:行号 23
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 120
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 MyCreek.SysAdmin.MenuMgrAppService.<GetMenuInfo>d__19.MoveNext() 位置 E:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Application\SysAdmin\MenuMgrAppService.cs:行号 225
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 120
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 91
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 120
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 91
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 MyCreek.Web.Controllers.MyFeatureController.<Index>d__2.MoveNext() 位置 E:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Controllers\MyFeatureController.cs:行号 23
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2018-03-19 19:19:57,415 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: eaebf991-3947-43da-95b6-5e3dae975ad4
+DEBUG 2018-03-19 19:20:03,224 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"46aa4713-1dd3-451c-a845-e651f6fc6466","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T19:20:03.2241911+08:00","Properties":{}}
+DEBUG 2018-03-19 19:20:03,241 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 46aa4713-1dd3-451c-a845-e651f6fc6466
+ERROR 2018-03-19 19:20:24,372 [7    ] reek.Web.Controllers.MyFeatureController - Sequence contains no elements
+System.InvalidOperationException: Sequence contains no elements
+   在 System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<SingleAsync>d__2d`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<SingleAsync>d__18.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 120
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 MyCreek.EntityFramework.Repositories.MenuMgrRepository.<GetSingleMenuItemDefine>d__1.MoveNext() 位置 E:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.EntityFramework\EntityFramework\Repositories\MenuMgrRepository.cs:行号 23
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 120
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 MyCreek.SysAdmin.MenuMgrAppService.<GetMenuInfo>d__19.MoveNext() 位置 E:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Application\SysAdmin\MenuMgrAppService.cs:行号 225
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 120
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 91
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 120
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 91
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 MyCreek.Web.Controllers.MyFeatureController.<Index>d__2.MoveNext() 位置 E:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Controllers\MyFeatureController.cs:行号 23
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2018-03-19 19:20:24,407 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 46aa4713-1dd3-451c-a845-e651f6fc6466
+DEBUG 2018-03-19 19:21:17,652 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-19 19:21:17,665 [1    ] Abp.Modules.AbpModuleManager             - Found 18 ABP modules in total.
+DEBUG 2018-03-19 19:21:17,671 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.Web.MyCreekWebModule, MyCreek.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:21:17,673 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekDataModule, MyCreek.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:21:17,673 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:21:17,673 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:21:17,673 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:21:17,673 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:21:17,673 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:21:17,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:21:17,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekCoreModule, MyCreek.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:21:17,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekApplicationModule, MyCreek.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:21:17,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:21:17,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.Api.MyCreekWebApiModule, MyCreek.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:21:17,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:21:17,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:21:17,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:21:17,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:21:17,675 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:21:17,675 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Dapper.AbpDapperModule, Abp.Dapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:21:17,678 [1    ] Abp.Modules.AbpModuleManager             - 18 modules loaded.
+DEBUG 2018-03-19 19:21:17,907 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 19:21:17,908 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 19:21:17,908 [1    ] o.Configuration.LanguageManagementConfig - Converted MyCreek (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 19:21:17,908 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 19:21:18,216 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MyCreek.EntityFramework.MyCreekDbContext, MyCreek.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:21:20,006 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-19 19:21:20,050 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-19 19:21:20,068 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-19 19:21:20,070 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyCreek
+DEBUG 2018-03-19 19:21:20,071 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+WARN  2018-03-19 19:21:21,467 [1    ] Abp.MultiTenancy.TenantResolver          - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpHeaderTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpHeaderTenantResolveContributor.cs:行号 33
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpHeaderTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpHeaderTenantResolveContributor.cs:行号 33
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+WARN  2018-03-19 19:21:21,475 [1    ] Abp.MultiTenancy.TenantResolver          - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpCookieTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpCookieTenantResolveContributor.cs:行号 12
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpCookieTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpCookieTenantResolveContributor.cs:行号 12
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+WARN  2018-03-19 19:21:21,486 [1    ] Abp.Auditing.AuditingHelper              - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Auditing.WebClientInfoProvider.GetClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 43
+   在 Abp.Auditing.WebClientInfoProvider.get_ClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 13
+   在 Abp.Auditing.DefaultAuditInfoProvider.Fill(AuditInfo auditInfo) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\DefaultAuditInfoProvider.cs:行号 20
+   在 Abp.Auditing.AuditingHelper.CreateAuditInfo(Type type, MethodInfo method, IDictionary`2 arguments) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\AuditingHelper.cs:行号 120
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Auditing.WebClientInfoProvider.GetClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 43
+   在 Abp.Auditing.WebClientInfoProvider.get_ClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 13
+   在 Abp.Auditing.DefaultAuditInfoProvider.Fill(AuditInfo auditInfo) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\DefaultAuditInfoProvider.cs:行号 20
+   在 Abp.Auditing.AuditingHelper.CreateAuditInfo(Type type, MethodInfo method, IDictionary`2 arguments) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\AuditingHelper.cs:行号 120
+DEBUG 2018-03-19 19:21:24,093 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-19 19:21:24,125 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 15 classes define auto mapping attributes
+DEBUG 2018-03-19 19:21:24,125 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-19 19:21:24,128 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-19 19:21:24,128 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.CreateUserDto
+DEBUG 2018-03-19 19:21:24,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.UpdateUserDto
+DEBUG 2018-03-19 19:21:24,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.UserDto
+DEBUG 2018-03-19 19:21:24,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.SysAdmin.Dto.AdditionalInput
+DEBUG 2018-03-19 19:21:24,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.SysAdmin.Dto.FieldDto
+DEBUG 2018-03-19 19:21:24,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-19 19:21:24,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.PermissionDto
+DEBUG 2018-03-19 19:21:24,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.RoleDto
+DEBUG 2018-03-19 19:21:24,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-19 19:21:24,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-03-19 19:21:24,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-19 19:21:24,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-03-19 19:21:24,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-03-19 19:21:24,373 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-03-19 19:21:24,374 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-03-19 19:21:24,375 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.SysAdmin.IMenuMgrAppService' with service name 'app/menuMgr'.
+DEBUG 2018-03-19 19:21:24,376 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.SysAdmin.IMyFeatureAppService' with service name 'app/myFeature'.
+DEBUG 2018-03-19 19:21:24,376 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-03-19 19:21:24,377 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-03-19 19:21:24,378 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-03-19 19:21:24,379 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-03-19 19:21:31,141 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"93c1ebcc-6f3a-4eeb-b6d0-830bf28eb648","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T19:21:31.1358849+08:00","Properties":{}}
+DEBUG 2018-03-19 19:21:31,167 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 93c1ebcc-6f3a-4eeb-b6d0-830bf28eb648
+DEBUG 2018-03-19 19:22:18,130 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"93c1ebcc-6f3a-4eeb-b6d0-830bf28eb648","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T19:21:31.1358849+08:00","Properties":{}}
+DEBUG 2018-03-19 19:22:19,161 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 93c1ebcc-6f3a-4eeb-b6d0-830bf28eb648
+DEBUG 2018-03-19 19:22:19,277 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"4a813197-984d-438d-8fb7-37c8fc92166f","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T19:22:19.2778136+08:00","Properties":{}}
+DEBUG 2018-03-19 19:22:19,279 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 4a813197-984d-438d-8fb7-37c8fc92166f
+DEBUG 2018-03-19 19:28:27,557 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-19 19:28:27,567 [1    ] Abp.Modules.AbpModuleManager             - Found 18 ABP modules in total.
+DEBUG 2018-03-19 19:28:27,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.Web.MyCreekWebModule, MyCreek.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:28:27,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekDataModule, MyCreek.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:28:27,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:28:27,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:28:27,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:28:27,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:28:27,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:28:27,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:28:27,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekCoreModule, MyCreek.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:28:27,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekApplicationModule, MyCreek.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:28:27,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:28:27,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.Api.MyCreekWebApiModule, MyCreek.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:28:27,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:28:27,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:28:27,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:28:27,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:28:27,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:28:27,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Dapper.AbpDapperModule, Abp.Dapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:28:27,577 [1    ] Abp.Modules.AbpModuleManager             - 18 modules loaded.
+DEBUG 2018-03-19 19:28:27,811 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 19:28:27,811 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 19:28:27,811 [1    ] o.Configuration.LanguageManagementConfig - Converted MyCreek (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 19:28:27,811 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 19:28:28,071 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MyCreek.EntityFramework.MyCreekDbContext, MyCreek.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 19:28:29,895 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-19 19:28:29,915 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-19 19:28:29,931 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-19 19:28:29,932 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyCreek
+DEBUG 2018-03-19 19:28:29,933 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+WARN  2018-03-19 19:28:31,432 [1    ] Abp.MultiTenancy.TenantResolver          - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpHeaderTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpHeaderTenantResolveContributor.cs:行号 33
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpHeaderTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpHeaderTenantResolveContributor.cs:行号 33
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+WARN  2018-03-19 19:28:31,439 [1    ] Abp.MultiTenancy.TenantResolver          - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpCookieTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpCookieTenantResolveContributor.cs:行号 12
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpCookieTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpCookieTenantResolveContributor.cs:行号 12
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+WARN  2018-03-19 19:28:31,448 [1    ] Abp.Auditing.AuditingHelper              - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Auditing.WebClientInfoProvider.GetClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 43
+   在 Abp.Auditing.WebClientInfoProvider.get_ClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 13
+   在 Abp.Auditing.DefaultAuditInfoProvider.Fill(AuditInfo auditInfo) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\DefaultAuditInfoProvider.cs:行号 20
+   在 Abp.Auditing.AuditingHelper.CreateAuditInfo(Type type, MethodInfo method, IDictionary`2 arguments) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\AuditingHelper.cs:行号 120
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Auditing.WebClientInfoProvider.GetClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 43
+   在 Abp.Auditing.WebClientInfoProvider.get_ClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 13
+   在 Abp.Auditing.DefaultAuditInfoProvider.Fill(AuditInfo auditInfo) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\DefaultAuditInfoProvider.cs:行号 20
+   在 Abp.Auditing.AuditingHelper.CreateAuditInfo(Type type, MethodInfo method, IDictionary`2 arguments) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\AuditingHelper.cs:行号 120
+DEBUG 2018-03-19 19:28:34,316 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-19 19:28:34,348 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 15 classes define auto mapping attributes
+DEBUG 2018-03-19 19:28:34,348 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-19 19:28:34,350 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-19 19:28:34,350 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.CreateUserDto
+DEBUG 2018-03-19 19:28:34,351 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.UpdateUserDto
+DEBUG 2018-03-19 19:28:34,351 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.UserDto
+DEBUG 2018-03-19 19:28:34,351 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.SysAdmin.Dto.AdditionalInput
+DEBUG 2018-03-19 19:28:34,351 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.SysAdmin.Dto.FieldDto
+DEBUG 2018-03-19 19:28:34,351 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-19 19:28:34,351 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.PermissionDto
+DEBUG 2018-03-19 19:28:34,351 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.RoleDto
+DEBUG 2018-03-19 19:28:34,351 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-19 19:28:34,351 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-03-19 19:28:34,351 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-19 19:28:34,351 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-03-19 19:28:34,351 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-03-19 19:28:34,562 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-03-19 19:28:34,563 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-03-19 19:28:34,564 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.SysAdmin.IMenuMgrAppService' with service name 'app/menuMgr'.
+DEBUG 2018-03-19 19:28:34,565 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.SysAdmin.IMyFeatureAppService' with service name 'app/myFeature'.
+DEBUG 2018-03-19 19:28:34,566 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-03-19 19:28:34,567 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-03-19 19:28:34,567 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-03-19 19:28:34,568 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-03-19 19:28:41,268 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"00437f0a-4e58-4bc4-baf3-b2505d1349a4","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T19:28:41.2627919+08:00","Properties":{}}
+DEBUG 2018-03-19 19:28:41,297 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 00437f0a-4e58-4bc4-baf3-b2505d1349a4
+DEBUG 2018-03-19 19:28:55,173 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 00437f0a-4e58-4bc4-baf3-b2505d1349a4
+DEBUG 2018-03-19 19:28:55,293 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"80293b14-0e30-48ed-a0ed-54257e022748","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T19:28:55.2930168+08:00","Properties":{}}
+DEBUG 2018-03-19 19:28:55,298 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 80293b14-0e30-48ed-a0ed-54257e022748
+DEBUG 2018-03-19 20:41:12,271 [118  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 80293b14-0e30-48ed-a0ed-54257e022748
+DEBUG 2018-03-19 20:41:12,707 [101  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"92d79b6a-5b70-4459-b4ec-f6a3c8fefc25","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T20:41:12.7078044+08:00","Properties":{}}
+DEBUG 2018-03-19 20:41:12,730 [106  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 92d79b6a-5b70-4459-b4ec-f6a3c8fefc25
+DEBUG 2018-03-19 21:19:26,857 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 92d79b6a-5b70-4459-b4ec-f6a3c8fefc25
+DEBUG 2018-03-19 21:19:27,048 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e2c6d07f-d6c6-4100-a061-91875f6485cf","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T21:19:27.0488215+08:00","Properties":{}}
+DEBUG 2018-03-19 21:19:27,052 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e2c6d07f-d6c6-4100-a061-91875f6485cf
+DEBUG 2018-03-19 21:19:41,378 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e2c6d07f-d6c6-4100-a061-91875f6485cf
+DEBUG 2018-03-19 21:19:41,788 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"eab1ad56-0f38-4b21-ad59-3c6b69a135ca","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T21:19:41.7884613+08:00","Properties":{}}
+DEBUG 2018-03-19 21:19:41,806 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: eab1ad56-0f38-4b21-ad59-3c6b69a135ca
+DEBUG 2018-03-19 21:48:35,942 [117  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: eab1ad56-0f38-4b21-ad59-3c6b69a135ca
