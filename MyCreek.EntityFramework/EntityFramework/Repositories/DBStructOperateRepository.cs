@@ -13,6 +13,8 @@ using System.Data;
 using Abp.EntityFramework;
 using System.Data.Common;
 using System.Data.SqlClient;
+using System.Data.Entity;
+using System.Configuration;
 
 namespace MyCreek.EntityFramework.Repositories
 {
@@ -39,7 +41,6 @@ namespace MyCreek.EntityFramework.Repositories
                 await CreateTable(customFeatureCoreStruct);
             }
             //2.存在就把现在的表结果和已经有的表结构进行对比，不一致的就放入列表，构造修改的SQL
-            throw new NotImplementedException();
         }
 
         public async Task<bool> IsExist(string tableName)
@@ -55,11 +56,10 @@ namespace MyCreek.EntityFramework.Repositories
                      };
 
                     var context = GetDbContext();
-                    using (context)
-                    {
-                        var tmp = context.Database.SqlQuery<int>(sql, args).SingleOrDefault();
-                        return tmp > 0;
-                    }
+
+                    var tmp = context.Database.SqlQuery<int>(sql, args).SingleOrDefault();
+                    return tmp > 0;
+
 
                 });
 
@@ -83,7 +83,7 @@ namespace MyCreek.EntityFramework.Repositories
             var sql1 = $"CREATE TABLE [dbo].[{tableName}]([Id] [INT] IDENTITY(1,1) NOT NULL,";
             var sql2 = $@"CONSTRAINT [PK_dbo.{tableName}] PRIMARY KEY CLUSTERED 
                         ([Id] ASC)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
-                        ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]";
+                        ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY];";
 
             var strList = new StringBuilder();
             foreach (var item in customFeatureCoreStruct.Fields)
@@ -94,15 +94,22 @@ namespace MyCreek.EntityFramework.Repositories
                 strList.AppendLine(str);
             }
 
-
             var sqlCommand = sql1 + strList.ToString() + sql2;
 
-            var context = GetDbContext();
-            using (context)
+            try
             {
-                var x = await context.Database.ExecuteSqlCommandAsync(sqlCommand);
-                Console.WriteLine(x);
+                using (DbContext context1 = new DbContext(this.Connection.ConnectionString))
+                {
+                    var x =await context1.Database.ExecuteSqlCommandAsync(sqlCommand);
+                    Console.WriteLine(x);
+                }
             }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
         }
 
     }
