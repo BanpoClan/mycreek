@@ -17,7 +17,7 @@
             //关闭elementPath
             elementPathEnabled: false,
             //默认的编辑区域高度
-            initialFrameHeight: 300
+            initialFrameHeight: 400
             ///,iframeCssUrl:"css/bootstrap/css/bootstrap.css" //引入自身 css使编辑器兼容你网站css
             //更多其他参数，请参考ueditor.config.js中的配置项
         });
