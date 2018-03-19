@@ -1,9 +1,10 @@
-﻿<div class="button-demo">
-    <button type="button" class="btn btn-primary waves-effect text-ex">文本框</button>
-    <button type="button" class="btn btn-primary waves-effect textarea-ex">多行文本</button>
-    <button type="button" class="btn btn-primary waves-effect select-ex">下拉菜单</button>
-    <button type="button" class="btn btn-primary waves-effect checkbox-ex">复选框</button>
-    <button type="button" class="btn btn-primary waves-effect list-ex">列表控件</button>
+﻿<div class="button-demo @ViewData["name"].ToString()">
+    <button type="button" class="btn btn-primary waves-effect" editor="@ViewData["name"].ToString()" inputType="text">文本框</button>
+    <button type="button" class="btn btn-primary waves-effect" editor="@ViewData["name"].ToString()" inputType="textarea">多行文本</button>
+    <button type="button" class="btn btn-primary waves-effect" editor="@ViewData["name"].ToString()" inputType="select">下拉菜单</button>
+    <button type="button" class="btn btn-primary waves-effect" editor="@ViewData["name"].ToString()" inputType="checkboxs">复选框</button>
+    <button type="button" class="btn btn-primary waves-effect" editor="@ViewData["name"].ToString()" inputType="listctrl">列表控件</button>
+
 </div>
 
 <script id="@ViewData["name"].ToString()" type="text/plain" style="width:100%;height:500px;">

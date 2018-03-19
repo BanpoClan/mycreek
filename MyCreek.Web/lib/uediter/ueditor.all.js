@@ -10235,16 +10235,16 @@ UE.commands['inserthtml'] = {
         div = range.document.createElement( 'div' );
         div.style.display = 'inline';
 
-        if (!notNeedFilter) {
-            var root = UE.htmlparser(html);
-            //如果给了过滤规则就先进行过滤
-            if(me.options.filterRules){
-                UE.filterNode(root,me.options.filterRules);
-            }
-            //执行默认的处理
-            me.filterInputRule(root);
-            html = root.toHtml()
-        }
+        //if (!notNeedFilter) {
+        //    var root = UE.htmlparser(html);
+        //    //如果给了过滤规则就先进行过滤
+        //    if(me.options.filterRules){
+        //        UE.filterNode(root,me.options.filterRules);
+        //    }
+        //    //执行默认的处理
+        //    me.filterInputRule(root);
+        //    html = root.toHtml()
+        //}
         div.innerHTML = utils.trim( html );
 
         if ( !range.collapsed ) {

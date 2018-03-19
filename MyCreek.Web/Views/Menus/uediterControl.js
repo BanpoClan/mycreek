@@ -1,6 +1,42 @@
 ﻿var uediterControl = {
+    editorDic: {},
     bindControl: function () {
+        var list = ['IndexPageTemplate', 'GeneralPageTemplate', 'CreatePageTemplate', 'UpdatePageTemplate'];
 
+        var editorDic = {};
+        for (var i = 0; i < 4; i++) {
+            var editor = uediterControl.initEditor(list[i]);
+            editorDic[list[i]] = editor;
+            
+        }
+        uediterControl.editorDic = editorDic;
+
+        var btn = $('button[editor]');
+        for (var i = 0; i < btn.length; i++) {
+            var key = $(btn[i]).attr('editor');
+            var editor = editorDic[key];
+            (function (editor) {
+      
+                btn[i].onclick = function () {
+                   
+                    var func = $(this).attr('func');
+                    if (func == 'preview') {
+                        leipiFormDesign.fnReview(editor);
+                    }
+                    else if (func == 'save') {
+
+                    }
+                    else {
+                        leipiFormDesign.exec(editor, $(this).attr('inputType'));
+                    }
+                    
+                    
+                };
+            })(editor);
+        }   
+
+
+       
     },
     initEditor: function (id) {
         var leipiEditor = UE.getEditor(id, {
@@ -21,6 +57,7 @@
             ///,iframeCssUrl:"css/bootstrap/css/bootstrap.css" //引入自身 css使编辑器兼容你网站css
             //更多其他参数，请参考ueditor.config.js中的配置项
         });
+ 
         return leipiEditor;
 
     }
@@ -30,8 +67,8 @@
 
 var leipiFormDesign = {
     /*执行控件*/
-    exec: function (method) {
-        leipiEditor.execCommand(method);
+    exec: function (editor,method) {
+        editor.execCommand(method);
     },
     /*
         Javascript 解析表单
@@ -196,15 +233,16 @@ var leipiFormDesign = {
         return JSON.stringify(parse_form);
     },
     /*type  =  save 保存设计 versions 保存版本  close关闭 */
-    fnCheckForm: function (type) {
+    fnCheckForm: function (leipiEditor,type) {
+        
         if (leipiEditor.queryCommandState('source'))
             leipiEditor.execCommand('source');//切换到编辑模式才提交，否则有bug
 
         if (leipiEditor.hasContents()) {
             leipiEditor.sync();/*同步内容*/
 
-            alert("你点击了保存,这里可以异步提交，请自行处理....");
-            return false;
+            //alert("你点击了保存,这里可以异步提交，请自行处理....");
+            //return false;
             //--------------以下仅参考-----------------------------------------------------------------------------------------------------
             var type_value = '', formid = 0, fields = $("#fields").val(), formeditor = '';
 
@@ -215,32 +253,8 @@ var leipiFormDesign = {
             formeditor = leipiEditor.getContent();
             //解析表单设计器控件
             var parse_form = this.parse_form(formeditor, fields);
-            //alert(parse_form);
+            alert(parse_form);
 
-            //异步提交数据
-            $.ajax({
-                type: 'POST',
-                url: '/index.php?s=/index/parse.html',
-                //dataType : 'json',
-                data: { 'type': type_value, 'formid': formid, 'parse_form': parse_form },
-                success: function (data) {
-                    if (confirm('查看js解析后，提交到服务器的数据，请临时允许弹窗')) {
-                        win_parse = window.open('', '', 'width=800,height=600');
-                        //这里临时查看，所以替换一下，实际情况下不需要替换  
-                        data = data.replace(/<\/+textarea/, '&lt;textarea');
-                        win_parse.document.write('<textarea style="width:100%;height:100%">' + data + '</textarea>');
-                        win_parse.focus();
-                    }
-
-                    /*
-                  if(data.success==1){
-                      alert('保存成功');
-                      $('#submitbtn').button('reset');
-                  }else{
-                      alert('保存失败！');
-                  }*/
-                }
-            });
 
         } else {
             alert('表单内容不能为空！')
@@ -249,7 +263,8 @@ var leipiFormDesign = {
         }
     },
     /*预览表单*/
-    fnReview: function () {
+    fnReview: function (leipiEditor) {
+     
         if (leipiEditor.queryCommandState('source'))
             leipiEditor.execCommand('source');/*切换到编辑模式才提交，否则部分浏览器有bug*/
 

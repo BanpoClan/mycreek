@@ -4715,3 +4715,1264 @@ DEBUG 2018-03-19 13:34:25,078 [58   ] Abp.Web.SignalR.Hubs.AbpCommonHub        -
 DEBUG 2018-03-19 13:34:27,295 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 701a17ce-d2dd-403f-a3f0-43cf3d3ea327
 DEBUG 2018-03-19 13:34:27,987 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"563f7851-b5fd-4bb6-8ba8-f8374c0b90b2","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T13:34:27.9870507+08:00","Properties":{}}
 DEBUG 2018-03-19 13:34:28,009 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 563f7851-b5fd-4bb6-8ba8-f8374c0b90b2
+DEBUG 2018-03-19 13:36:37,753 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 563f7851-b5fd-4bb6-8ba8-f8374c0b90b2
+DEBUG 2018-03-19 13:36:38,218 [65   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"77d1df81-393a-465d-834a-c8e793eb508d","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T13:36:38.2180727+08:00","Properties":{}}
+DEBUG 2018-03-19 13:36:38,235 [62   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 77d1df81-393a-465d-834a-c8e793eb508d
+DEBUG 2018-03-19 13:43:48,488 [62   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 77d1df81-393a-465d-834a-c8e793eb508d
+DEBUG 2018-03-19 14:36:25,250 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-19 14:36:25,266 [1    ] Abp.Modules.AbpModuleManager             - Found 18 ABP modules in total.
+DEBUG 2018-03-19 14:36:25,270 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.Web.MyCreekWebModule, MyCreek.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:36:25,272 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekDataModule, MyCreek.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:36:25,272 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:36:25,272 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:36:25,272 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:36:25,272 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:36:25,272 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:36:25,272 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:36:25,272 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekCoreModule, MyCreek.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:36:25,273 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekApplicationModule, MyCreek.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:36:25,273 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:36:25,273 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.Api.MyCreekWebApiModule, MyCreek.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:36:25,273 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:36:25,273 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:36:25,273 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:36:25,273 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:36:25,273 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:36:25,273 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Dapper.AbpDapperModule, Abp.Dapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:36:25,276 [1    ] Abp.Modules.AbpModuleManager             - 18 modules loaded.
+DEBUG 2018-03-19 14:36:25,450 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 14:36:25,450 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 14:36:25,450 [1    ] o.Configuration.LanguageManagementConfig - Converted MyCreek (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 14:36:25,450 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 14:36:25,821 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MyCreek.EntityFramework.MyCreekDbContext, MyCreek.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:36:27,364 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-19 14:36:27,381 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-19 14:36:27,385 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-19 14:36:27,387 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyCreek
+DEBUG 2018-03-19 14:36:27,388 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+WARN  2018-03-19 14:36:28,230 [1    ] Abp.MultiTenancy.TenantResolver          - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpHeaderTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpHeaderTenantResolveContributor.cs:行号 33
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpHeaderTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpHeaderTenantResolveContributor.cs:行号 33
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+WARN  2018-03-19 14:36:28,233 [1    ] Abp.MultiTenancy.TenantResolver          - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpCookieTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpCookieTenantResolveContributor.cs:行号 12
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpCookieTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpCookieTenantResolveContributor.cs:行号 12
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+WARN  2018-03-19 14:36:28,238 [1    ] Abp.Auditing.AuditingHelper              - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Auditing.WebClientInfoProvider.GetClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 43
+   在 Abp.Auditing.WebClientInfoProvider.get_ClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 13
+   在 Abp.Auditing.DefaultAuditInfoProvider.Fill(AuditInfo auditInfo) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\DefaultAuditInfoProvider.cs:行号 20
+   在 Abp.Auditing.AuditingHelper.CreateAuditInfo(Type type, MethodInfo method, IDictionary`2 arguments) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\AuditingHelper.cs:行号 120
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Auditing.WebClientInfoProvider.GetClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 43
+   在 Abp.Auditing.WebClientInfoProvider.get_ClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 13
+   在 Abp.Auditing.DefaultAuditInfoProvider.Fill(AuditInfo auditInfo) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\DefaultAuditInfoProvider.cs:行号 20
+   在 Abp.Auditing.AuditingHelper.CreateAuditInfo(Type type, MethodInfo method, IDictionary`2 arguments) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\AuditingHelper.cs:行号 120
+DEBUG 2018-03-19 14:36:30,584 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-19 14:36:30,613 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 15 classes define auto mapping attributes
+DEBUG 2018-03-19 14:36:30,613 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-19 14:36:30,616 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-19 14:36:30,616 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.CreateUserDto
+DEBUG 2018-03-19 14:36:30,616 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.UpdateUserDto
+DEBUG 2018-03-19 14:36:30,616 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.UserDto
+DEBUG 2018-03-19 14:36:30,616 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.SysAdmin.Dto.AdditionalInput
+DEBUG 2018-03-19 14:36:30,616 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.SysAdmin.Dto.FieldDto
+DEBUG 2018-03-19 14:36:30,616 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-19 14:36:30,616 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.PermissionDto
+DEBUG 2018-03-19 14:36:30,616 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.RoleDto
+DEBUG 2018-03-19 14:36:30,616 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-19 14:36:30,616 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-03-19 14:36:30,616 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-19 14:36:30,616 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-03-19 14:36:30,617 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-03-19 14:36:30,802 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-03-19 14:36:30,803 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-03-19 14:36:30,804 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.SysAdmin.IMenuMgrAppService' with service name 'app/menuMgr'.
+DEBUG 2018-03-19 14:36:30,804 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.SysAdmin.IMyFeatureAppService' with service name 'app/myFeature'.
+DEBUG 2018-03-19 14:36:30,805 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-03-19 14:36:30,806 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-03-19 14:36:30,807 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-03-19 14:36:30,808 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2018-03-19 14:36:31,435 [5    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:行号 43
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:行号 98
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:行号 57
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type) 位置 D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:行号 28
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) 位置 D:\Github\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:行号 48
+Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:行号 43
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:行号 98
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() 位置 D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:行号 57
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type) 位置 D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:行号 28
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) 位置 D:\Github\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:行号 48
+DEBUG 2018-03-19 14:36:40,526 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"418bfee2-5c9e-432b-bce7-f12242b400de","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T14:36:40.5212391+08:00","Properties":{}}
+DEBUG 2018-03-19 14:36:40,548 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 418bfee2-5c9e-432b-bce7-f12242b400de
+DEBUG 2018-03-19 14:36:44,114 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 418bfee2-5c9e-432b-bce7-f12242b400de
+DEBUG 2018-03-19 14:36:44,499 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0794fe0f-dace-4197-bfa5-55698ca11b08","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T14:36:44.4995556+08:00","Properties":{}}
+DEBUG 2018-03-19 14:36:44,517 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0794fe0f-dace-4197-bfa5-55698ca11b08
+DEBUG 2018-03-19 14:50:07,457 [79   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0794fe0f-dace-4197-bfa5-55698ca11b08
+DEBUG 2018-03-19 14:50:07,733 [65   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5d2acce3-ba2a-4f2b-87a3-652b74a4a726","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T14:50:07.7332153+08:00","Properties":{}}
+DEBUG 2018-03-19 14:50:07,740 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5d2acce3-ba2a-4f2b-87a3-652b74a4a726
+DEBUG 2018-03-19 14:50:29,208 [65   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5d2acce3-ba2a-4f2b-87a3-652b74a4a726
+DEBUG 2018-03-19 14:51:00,954 [89   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b0ce2043-4cb2-4c62-bb13-b066265a550a","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T14:51:00.9541956+08:00","Properties":{}}
+DEBUG 2018-03-19 14:51:00,963 [77   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b0ce2043-4cb2-4c62-bb13-b066265a550a
+DEBUG 2018-03-19 14:51:35,222 [86   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b0ce2043-4cb2-4c62-bb13-b066265a550a
+DEBUG 2018-03-19 14:51:45,968 [70   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c2246c4c-3faa-4c2a-ac5a-bc48384dff24","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T14:51:45.9683157+08:00","Properties":{}}
+DEBUG 2018-03-19 14:51:45,982 [96   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c2246c4c-3faa-4c2a-ac5a-bc48384dff24
+DEBUG 2018-03-19 14:54:08,347 [70   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c2246c4c-3faa-4c2a-ac5a-bc48384dff24
+DEBUG 2018-03-19 14:54:14,744 [61   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"20ed117f-997e-4526-9403-ce47b158fe94","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T14:54:14.7443903+08:00","Properties":{}}
+DEBUG 2018-03-19 14:54:14,762 [101  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 20ed117f-997e-4526-9403-ce47b158fe94
+DEBUG 2018-03-19 14:56:09,812 [88   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2018-03-19 14:56:09,813 [88   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-19 14:56:09,814 [88   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-19 14:56:09,814 [88   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2018-03-19 14:56:14,695 [84   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-19 14:56:14,704 [84   ] Abp.Modules.AbpModuleManager             - Found 18 ABP modules in total.
+DEBUG 2018-03-19 14:56:14,709 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.Web.MyCreekWebModule, MyCreek.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:14,710 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekDataModule, MyCreek.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:14,710 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:14,710 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:14,710 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:14,711 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:14,711 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:14,711 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:14,711 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekCoreModule, MyCreek.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:14,711 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekApplicationModule, MyCreek.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:14,711 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:14,711 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.Api.MyCreekWebApiModule, MyCreek.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:14,711 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:14,711 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:14,711 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:14,712 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:14,712 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:14,712 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Dapper.AbpDapperModule, Abp.Dapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:14,714 [84   ] Abp.Modules.AbpModuleManager             - 18 modules loaded.
+DEBUG 2018-03-19 14:56:14,846 [84   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 14:56:14,846 [84   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 14:56:14,846 [84   ] o.Configuration.LanguageManagementConfig - Converted MyCreek (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 14:56:14,846 [84   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 14:56:15,110 [84   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MyCreek.EntityFramework.MyCreekDbContext, MyCreek.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:16,039 [84   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-19 14:56:16,039 [84   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-19 14:56:16,047 [84   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-19 14:56:16,048 [84   ] Abp.Localization.LocalizationManager     - Initialized localization source: MyCreek
+DEBUG 2018-03-19 14:56:16,049 [84   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+WARN  2018-03-19 14:56:16,819 [84   ] Abp.MultiTenancy.TenantResolver          - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpHeaderTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpHeaderTenantResolveContributor.cs:行号 33
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpHeaderTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpHeaderTenantResolveContributor.cs:行号 33
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+WARN  2018-03-19 14:56:16,822 [84   ] Abp.MultiTenancy.TenantResolver          - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpCookieTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpCookieTenantResolveContributor.cs:行号 12
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpCookieTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpCookieTenantResolveContributor.cs:行号 12
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+WARN  2018-03-19 14:56:16,828 [84   ] Abp.Auditing.AuditingHelper              - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Auditing.WebClientInfoProvider.GetClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 43
+   在 Abp.Auditing.WebClientInfoProvider.get_ClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 13
+   在 Abp.Auditing.DefaultAuditInfoProvider.Fill(AuditInfo auditInfo) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\DefaultAuditInfoProvider.cs:行号 20
+   在 Abp.Auditing.AuditingHelper.CreateAuditInfo(Type type, MethodInfo method, IDictionary`2 arguments) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\AuditingHelper.cs:行号 120
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Auditing.WebClientInfoProvider.GetClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 43
+   在 Abp.Auditing.WebClientInfoProvider.get_ClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 13
+   在 Abp.Auditing.DefaultAuditInfoProvider.Fill(AuditInfo auditInfo) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\DefaultAuditInfoProvider.cs:行号 20
+   在 Abp.Auditing.AuditingHelper.CreateAuditInfo(Type type, MethodInfo method, IDictionary`2 arguments) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\AuditingHelper.cs:行号 120
+DEBUG 2018-03-19 14:56:18,702 [84   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-19 14:56:18,766 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 15 classes define auto mapping attributes
+DEBUG 2018-03-19 14:56:18,766 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-19 14:56:18,769 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-19 14:56:18,769 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.CreateUserDto
+DEBUG 2018-03-19 14:56:18,769 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.UpdateUserDto
+DEBUG 2018-03-19 14:56:18,769 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.UserDto
+DEBUG 2018-03-19 14:56:18,769 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.SysAdmin.Dto.AdditionalInput
+DEBUG 2018-03-19 14:56:18,769 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.SysAdmin.Dto.FieldDto
+DEBUG 2018-03-19 14:56:18,769 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-19 14:56:18,769 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.PermissionDto
+DEBUG 2018-03-19 14:56:18,770 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.RoleDto
+DEBUG 2018-03-19 14:56:18,770 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-19 14:56:18,770 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-03-19 14:56:18,770 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-19 14:56:18,770 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-03-19 14:56:18,770 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-03-19 14:56:18,967 [84   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-03-19 14:56:18,968 [84   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-03-19 14:56:18,969 [84   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.SysAdmin.IMenuMgrAppService' with service name 'app/menuMgr'.
+DEBUG 2018-03-19 14:56:18,970 [84   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.SysAdmin.IMyFeatureAppService' with service name 'app/myFeature'.
+DEBUG 2018-03-19 14:56:18,970 [84   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-03-19 14:56:18,971 [84   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-03-19 14:56:18,972 [84   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-03-19 14:56:18,973 [84   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-03-19 14:56:19,417 [61   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"20ed117f-997e-4526-9403-ce47b158fe94","IpAddress":null,"TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T14:56:19.3890974+08:00","Properties":{}}
+DEBUG 2018-03-19 14:56:49,419 [99   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2018-03-19 14:56:49,420 [99   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-19 14:56:49,420 [99   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-19 14:56:49,420 [99   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2018-03-19 14:56:49,780 [84   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-19 14:56:49,791 [84   ] Abp.Modules.AbpModuleManager             - Found 18 ABP modules in total.
+DEBUG 2018-03-19 14:56:49,823 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.Web.MyCreekWebModule, MyCreek.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:49,825 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekDataModule, MyCreek.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:49,825 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:49,825 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:49,825 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:49,825 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:49,825 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:49,826 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:49,826 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekCoreModule, MyCreek.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:49,826 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekApplicationModule, MyCreek.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:49,826 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:49,826 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.Api.MyCreekWebApiModule, MyCreek.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:49,826 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:49,826 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:49,826 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:49,826 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:49,826 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:49,827 [84   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Dapper.AbpDapperModule, Abp.Dapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:49,829 [84   ] Abp.Modules.AbpModuleManager             - 18 modules loaded.
+DEBUG 2018-03-19 14:56:49,962 [84   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 14:56:49,962 [84   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 14:56:49,962 [84   ] o.Configuration.LanguageManagementConfig - Converted MyCreek (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 14:56:49,962 [84   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 14:56:50,207 [84   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MyCreek.EntityFramework.MyCreekDbContext, MyCreek.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 14:56:51,195 [84   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-19 14:56:51,199 [84   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-19 14:56:51,204 [84   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-19 14:56:51,205 [84   ] Abp.Localization.LocalizationManager     - Initialized localization source: MyCreek
+DEBUG 2018-03-19 14:56:51,206 [84   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+WARN  2018-03-19 14:56:52,003 [84   ] Abp.MultiTenancy.TenantResolver          - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpHeaderTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpHeaderTenantResolveContributor.cs:行号 33
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpHeaderTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpHeaderTenantResolveContributor.cs:行号 33
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+WARN  2018-03-19 14:56:52,006 [84   ] Abp.MultiTenancy.TenantResolver          - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpCookieTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpCookieTenantResolveContributor.cs:行号 12
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpCookieTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpCookieTenantResolveContributor.cs:行号 12
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+WARN  2018-03-19 14:56:52,011 [84   ] Abp.Auditing.AuditingHelper              - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Auditing.WebClientInfoProvider.GetClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 43
+   在 Abp.Auditing.WebClientInfoProvider.get_ClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 13
+   在 Abp.Auditing.DefaultAuditInfoProvider.Fill(AuditInfo auditInfo) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\DefaultAuditInfoProvider.cs:行号 20
+   在 Abp.Auditing.AuditingHelper.CreateAuditInfo(Type type, MethodInfo method, IDictionary`2 arguments) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\AuditingHelper.cs:行号 120
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Auditing.WebClientInfoProvider.GetClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 43
+   在 Abp.Auditing.WebClientInfoProvider.get_ClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 13
+   在 Abp.Auditing.DefaultAuditInfoProvider.Fill(AuditInfo auditInfo) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\DefaultAuditInfoProvider.cs:行号 20
+   在 Abp.Auditing.AuditingHelper.CreateAuditInfo(Type type, MethodInfo method, IDictionary`2 arguments) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\AuditingHelper.cs:行号 120
+DEBUG 2018-03-19 14:56:53,689 [84   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-19 14:56:53,721 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 15 classes define auto mapping attributes
+DEBUG 2018-03-19 14:56:53,721 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-19 14:56:53,723 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-19 14:56:53,723 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.CreateUserDto
+DEBUG 2018-03-19 14:56:53,723 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.UpdateUserDto
+DEBUG 2018-03-19 14:56:53,723 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.UserDto
+DEBUG 2018-03-19 14:56:53,723 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.SysAdmin.Dto.AdditionalInput
+DEBUG 2018-03-19 14:56:53,723 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.SysAdmin.Dto.FieldDto
+DEBUG 2018-03-19 14:56:53,723 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-19 14:56:53,723 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.PermissionDto
+DEBUG 2018-03-19 14:56:53,723 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.RoleDto
+DEBUG 2018-03-19 14:56:53,723 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-19 14:56:53,723 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-03-19 14:56:53,724 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-19 14:56:53,724 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-03-19 14:56:53,724 [84   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-03-19 14:56:53,884 [84   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-03-19 14:56:53,884 [84   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-03-19 14:56:53,885 [84   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.SysAdmin.IMenuMgrAppService' with service name 'app/menuMgr'.
+DEBUG 2018-03-19 14:56:53,886 [84   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.SysAdmin.IMyFeatureAppService' with service name 'app/myFeature'.
+DEBUG 2018-03-19 14:56:53,887 [84   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-03-19 14:56:53,888 [84   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-03-19 14:56:53,889 [84   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-03-19 14:56:53,889 [84   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-03-19 14:56:54,402 [99   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"20ed117f-997e-4526-9403-ce47b158fe94","IpAddress":null,"TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T14:56:54.3726423+08:00","Properties":{}}
+DEBUG 2018-03-19 14:56:58,775 [59   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 20ed117f-997e-4526-9403-ce47b158fe94
+DEBUG 2018-03-19 14:57:04,555 [99   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"745802e7-c47e-486e-9b5f-d1c9b4927ee2","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T14:57:04.5554271+08:00","Properties":{}}
+DEBUG 2018-03-19 14:57:04,575 [69   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 745802e7-c47e-486e-9b5f-d1c9b4927ee2
+DEBUG 2018-03-19 14:58:34,112 [95   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 745802e7-c47e-486e-9b5f-d1c9b4927ee2
+DEBUG 2018-03-19 14:58:37,782 [78   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"7ee0e103-6592-405b-bae6-de50c7cf55f2","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T14:58:37.7827161+08:00","Properties":{}}
+DEBUG 2018-03-19 14:58:37,793 [78   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 7ee0e103-6592-405b-bae6-de50c7cf55f2
+DEBUG 2018-03-19 14:59:53,151 [59   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 7ee0e103-6592-405b-bae6-de50c7cf55f2
+DEBUG 2018-03-19 14:59:56,984 [75   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8e8ae1df-4cc0-476f-92c6-e8fde1eafb74","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T14:59:56.9840768+08:00","Properties":{}}
+DEBUG 2018-03-19 14:59:57,011 [95   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8e8ae1df-4cc0-476f-92c6-e8fde1eafb74
+DEBUG 2018-03-19 15:00:30,664 [81   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8e8ae1df-4cc0-476f-92c6-e8fde1eafb74
+DEBUG 2018-03-19 15:00:33,737 [66   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d82b8f41-69a0-474c-aab0-4db2bcdef699","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:00:33.7367316+08:00","Properties":{}}
+DEBUG 2018-03-19 15:00:33,780 [85   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d82b8f41-69a0-474c-aab0-4db2bcdef699
+DEBUG 2018-03-19 15:02:14,848 [93   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d82b8f41-69a0-474c-aab0-4db2bcdef699
+DEBUG 2018-03-19 15:02:20,993 [81   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1a4b479f-3721-4365-8c63-f0e545162a12","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:02:20.9937067+08:00","Properties":{}}
+DEBUG 2018-03-19 15:02:21,006 [92   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1a4b479f-3721-4365-8c63-f0e545162a12
+DEBUG 2018-03-19 15:03:01,219 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1a4b479f-3721-4365-8c63-f0e545162a12
+DEBUG 2018-03-19 15:03:04,228 [70   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"914c3430-4893-48af-9af5-dd956216d305","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:03:04.2286902+08:00","Properties":{}}
+DEBUG 2018-03-19 15:03:04,238 [81   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 914c3430-4893-48af-9af5-dd956216d305
+DEBUG 2018-03-19 15:05:22,597 [85   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2018-03-19 15:05:22,597 [85   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-19 15:05:22,597 [85   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-19 15:05:22,597 [85   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2018-03-19 15:05:25,825 [82   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-19 15:05:25,888 [82   ] Abp.Modules.AbpModuleManager             - Found 18 ABP modules in total.
+DEBUG 2018-03-19 15:05:25,888 [82   ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.Web.MyCreekWebModule, MyCreek.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 15:05:25,888 [82   ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekDataModule, MyCreek.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 15:05:25,888 [82   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 15:05:25,888 [82   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 15:05:25,888 [82   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 15:05:25,888 [82   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 15:05:25,888 [82   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 15:05:25,888 [82   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 15:05:25,888 [82   ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekCoreModule, MyCreek.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 15:05:25,888 [82   ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekApplicationModule, MyCreek.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 15:05:25,888 [82   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 15:05:25,888 [82   ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.Api.MyCreekWebApiModule, MyCreek.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 15:05:25,888 [82   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 15:05:25,888 [82   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 15:05:25,888 [82   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 15:05:25,888 [82   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 15:05:25,888 [82   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 15:05:25,888 [82   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Dapper.AbpDapperModule, Abp.Dapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 15:05:25,888 [82   ] Abp.Modules.AbpModuleManager             - 18 modules loaded.
+DEBUG 2018-03-19 15:05:26,091 [82   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 15:05:26,091 [82   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 15:05:26,091 [82   ] o.Configuration.LanguageManagementConfig - Converted MyCreek (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 15:05:26,091 [82   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-19 15:05:26,294 [82   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MyCreek.EntityFramework.MyCreekDbContext, MyCreek.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-19 15:05:26,695 [82   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-19 15:05:26,710 [82   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-19 15:05:26,710 [82   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-19 15:05:26,710 [82   ] Abp.Localization.LocalizationManager     - Initialized localization source: MyCreek
+DEBUG 2018-03-19 15:05:26,710 [82   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+WARN  2018-03-19 15:05:27,476 [82   ] Abp.MultiTenancy.TenantResolver          - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpHeaderTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpHeaderTenantResolveContributor.cs:行号 33
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpHeaderTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpHeaderTenantResolveContributor.cs:行号 33
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+WARN  2018-03-19 15:05:27,476 [82   ] Abp.MultiTenancy.TenantResolver          - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpCookieTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpCookieTenantResolveContributor.cs:行号 12
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpCookieTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpCookieTenantResolveContributor.cs:行号 12
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+WARN  2018-03-19 15:05:27,476 [82   ] Abp.Auditing.AuditingHelper              - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Auditing.WebClientInfoProvider.GetClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 43
+   在 Abp.Auditing.WebClientInfoProvider.get_ClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 13
+   在 Abp.Auditing.DefaultAuditInfoProvider.Fill(AuditInfo auditInfo) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\DefaultAuditInfoProvider.cs:行号 20
+   在 Abp.Auditing.AuditingHelper.CreateAuditInfo(Type type, MethodInfo method, IDictionary`2 arguments) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\AuditingHelper.cs:行号 120
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Auditing.WebClientInfoProvider.GetClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 43
+   在 Abp.Auditing.WebClientInfoProvider.get_ClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 13
+   在 Abp.Auditing.DefaultAuditInfoProvider.Fill(AuditInfo auditInfo) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\DefaultAuditInfoProvider.cs:行号 20
+   在 Abp.Auditing.AuditingHelper.CreateAuditInfo(Type type, MethodInfo method, IDictionary`2 arguments) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\AuditingHelper.cs:行号 120
+DEBUG 2018-03-19 15:05:29,477 [82   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-19 15:05:29,508 [82   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 15 classes define auto mapping attributes
+DEBUG 2018-03-19 15:05:29,508 [82   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-19 15:05:29,524 [82   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-19 15:05:29,524 [82   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.CreateUserDto
+DEBUG 2018-03-19 15:05:29,524 [82   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.UpdateUserDto
+DEBUG 2018-03-19 15:05:29,524 [82   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.UserDto
+DEBUG 2018-03-19 15:05:29,524 [82   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.SysAdmin.Dto.AdditionalInput
+DEBUG 2018-03-19 15:05:29,524 [82   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.SysAdmin.Dto.FieldDto
+DEBUG 2018-03-19 15:05:29,524 [82   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-19 15:05:29,524 [82   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.PermissionDto
+DEBUG 2018-03-19 15:05:29,524 [82   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.RoleDto
+DEBUG 2018-03-19 15:05:29,524 [82   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-19 15:05:29,524 [82   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-03-19 15:05:29,524 [82   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-19 15:05:29,524 [82   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-03-19 15:05:29,524 [82   ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-03-19 15:05:29,680 [82   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-03-19 15:05:29,680 [82   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-03-19 15:05:29,680 [82   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.SysAdmin.IMenuMgrAppService' with service name 'app/menuMgr'.
+DEBUG 2018-03-19 15:05:29,680 [82   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.SysAdmin.IMyFeatureAppService' with service name 'app/myFeature'.
+DEBUG 2018-03-19 15:05:29,680 [82   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-03-19 15:05:29,680 [82   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-03-19 15:05:29,680 [82   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-03-19 15:05:29,680 [82   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-03-19 15:05:30,990 [53   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"914c3430-4893-48af-9af5-dd956216d305","IpAddress":null,"TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:05:30.9595269+08:00","Properties":{}}
+DEBUG 2018-03-19 15:05:58,300 [54   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 914c3430-4893-48af-9af5-dd956216d305
+DEBUG 2018-03-19 15:06:01,712 [85   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6bc215e1-7d65-4e86-b791-d75dc8dc8f22","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:06:01.7128243+08:00","Properties":{}}
+DEBUG 2018-03-19 15:06:01,730 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6bc215e1-7d65-4e86-b791-d75dc8dc8f22
+WARN  2018-03-19 15:06:37,380 [55   ] ity.AntiForgery.AbpMvcAntiForgeryManager - 提供的防伪标记适用于其他基于声明的用户，而不适用于当前用户。
+WARN  2018-03-19 15:06:37,381 [55   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-03-19 15:06:37,381 [55   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:61759/api/services/app/menuMgr/GetListDto
+WARN  2018-03-19 15:06:37,393 [28   ] ity.AntiForgery.AbpMvcAntiForgeryManager - 提供的防伪标记适用于其他基于声明的用户，而不适用于当前用户。
+WARN  2018-03-19 15:06:37,393 [28   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-03-19 15:06:37,393 [28   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:61759/api/services/app/menuMgr/GetFields
+DEBUG 2018-03-19 15:06:40,998 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"664813c2-3487-41f3-84f7-be676cdcc3c6","IpAddress":"192.168.140.1","TenantId":null,"UserId":null,"ConnectTime":"2018-03-19T15:06:40.9989772+08:00","Properties":{}}
+DEBUG 2018-03-19 15:06:41,010 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 664813c2-3487-41f3-84f7-be676cdcc3c6
+DEBUG 2018-03-19 15:07:06,613 [85   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 664813c2-3487-41f3-84f7-be676cdcc3c6
+DEBUG 2018-03-19 15:07:09,577 [92   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f7d7e322-51a8-4f6e-8855-63dcb99d60ea","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:07:09.5773458+08:00","Properties":{}}
+DEBUG 2018-03-19 15:07:09,583 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f7d7e322-51a8-4f6e-8855-63dcb99d60ea
+DEBUG 2018-03-19 15:07:11,069 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 6bc215e1-7d65-4e86-b791-d75dc8dc8f22
+DEBUG 2018-03-19 15:07:15,469 [51   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f7d7e322-51a8-4f6e-8855-63dcb99d60ea
+DEBUG 2018-03-19 15:07:20,365 [62   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e6555744-6beb-4605-a344-10e82affed79","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:07:20.3656182+08:00","Properties":{}}
+DEBUG 2018-03-19 15:07:20,377 [85   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e6555744-6beb-4605-a344-10e82affed79
+DEBUG 2018-03-19 15:20:23,918 [78   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e6555744-6beb-4605-a344-10e82affed79
+DEBUG 2018-03-19 15:20:24,414 [68   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"77fb0d09-db97-474f-b45c-5631e7f1f168","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:20:24.4145689+08:00","Properties":{}}
+DEBUG 2018-03-19 15:20:24,430 [63   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 77fb0d09-db97-474f-b45c-5631e7f1f168
+DEBUG 2018-03-19 15:29:14,923 [71   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 77fb0d09-db97-474f-b45c-5631e7f1f168
+DEBUG 2018-03-19 15:29:15,430 [71   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5bbfe8a3-1170-4b4a-b48e-5d696f5a61e3","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:29:15.4307285+08:00","Properties":{}}
+DEBUG 2018-03-19 15:29:15,446 [49   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5bbfe8a3-1170-4b4a-b48e-5d696f5a61e3
+DEBUG 2018-03-19 15:30:46,626 [71   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5bbfe8a3-1170-4b4a-b48e-5d696f5a61e3
+DEBUG 2018-03-19 15:31:03,897 [95   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"95274ed7-b453-43fc-970c-6e2d88daa62e","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:31:03.8977819+08:00","Properties":{}}
+DEBUG 2018-03-19 15:31:03,905 [72   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 95274ed7-b453-43fc-970c-6e2d88daa62e
+DEBUG 2018-03-19 15:31:21,921 [79   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 95274ed7-b453-43fc-970c-6e2d88daa62e
+DEBUG 2018-03-19 15:31:28,322 [80   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"48203a69-4b29-4ad8-a539-6c922b183680","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:31:28.3228017+08:00","Properties":{}}
+DEBUG 2018-03-19 15:31:28,339 [61   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 48203a69-4b29-4ad8-a539-6c922b183680
+DEBUG 2018-03-19 15:31:40,327 [100  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 48203a69-4b29-4ad8-a539-6c922b183680
+DEBUG 2018-03-19 15:32:11,450 [71   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"72f9f04e-aaca-4e78-8040-41710d6d311b","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:32:11.4500536+08:00","Properties":{}}
+DEBUG 2018-03-19 15:32:11,470 [58   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 72f9f04e-aaca-4e78-8040-41710d6d311b
+DEBUG 2018-03-19 15:32:45,176 [65   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 72f9f04e-aaca-4e78-8040-41710d6d311b
+DEBUG 2018-03-19 15:32:45,916 [72   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"885ecca1-1555-4adb-a436-37be78e3f725","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:32:45.916562+08:00","Properties":{}}
+DEBUG 2018-03-19 15:32:45,938 [80   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 885ecca1-1555-4adb-a436-37be78e3f725
+DEBUG 2018-03-19 15:32:53,594 [79   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 885ecca1-1555-4adb-a436-37be78e3f725
+DEBUG 2018-03-19 15:32:54,486 [58   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"71789e27-418a-4989-b533-739de4230f41","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:32:54.4861471+08:00","Properties":{}}
+DEBUG 2018-03-19 15:32:54,510 [65   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 71789e27-418a-4989-b533-739de4230f41
+DEBUG 2018-03-19 15:36:58,147 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 71789e27-418a-4989-b533-739de4230f41
+DEBUG 2018-03-19 15:36:58,587 [65   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e66881c6-2b09-4d5a-aac4-c17e6749fdee","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:36:58.5874769+08:00","Properties":{}}
+DEBUG 2018-03-19 15:36:58,602 [60   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e66881c6-2b09-4d5a-aac4-c17e6749fdee
+ERROR 2018-03-19 15:41:16,294 [10   ] MyCreek.Web.Controllers.MenusController  - 执行处理程序“System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper”的子请求时出错。
+System.Web.HttpException (0x80004005): 执行处理程序“System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper”的子请求时出错。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MyCreek.Web.Models.Layout.SideBarUserAreaViewModel.GetShownLoginName() 位置 E:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Models\Layout\SideBarUserAreaViewModel.cs:行号 13
+   在 ASP._Page_Views_Layout__SideBarUserArea_cshtml.Execute() 位置 e:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Views\Layout\_SideBarUserArea.cshtml:行号 7
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.<>c__DisplayClassa.<EndProcessRequest>b__9()
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.<>c__DisplayClass4.<Wrap>b__3()
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap[TResult](Func`1 func)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap(Action action)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   在 System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   在 System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage)
+   在 System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   在 System.Web.HttpServerUtilityWrapper.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   在 System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   在 System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   在 System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName)
+   在 ASP._Page_Views_Shared__Layout_cshtml.Execute() 位置 e:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Views\Shared\_Layout.cshtml:行号 93
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   在 System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   在 System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   在 System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   在 System.Web.WebPages.WebPageBase.PopContext()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2018-03-19 15:41:21,739 [65   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"430ccdb5-09f2-447e-a6b9-e5b562ec7e73","IpAddress":"192.168.140.1","TenantId":null,"UserId":null,"ConnectTime":"2018-03-19T15:41:21.7397467+08:00","Properties":{}}
+DEBUG 2018-03-19 15:41:21,749 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 430ccdb5-09f2-447e-a6b9-e5b562ec7e73
+DEBUG 2018-03-19 15:41:23,506 [98   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 430ccdb5-09f2-447e-a6b9-e5b562ec7e73
+DEBUG 2018-03-19 15:41:25,210 [68   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f40a12fd-d866-47f3-8ed3-0ed2a92a0145","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:41:25.210851+08:00","Properties":{}}
+DEBUG 2018-03-19 15:41:25,215 [68   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f40a12fd-d866-47f3-8ed3-0ed2a92a0145
+DEBUG 2018-03-19 15:41:27,879 [66   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f40a12fd-d866-47f3-8ed3-0ed2a92a0145
+DEBUG 2018-03-19 15:41:33,232 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b60269fb-1c39-4d2c-a0d6-96c3a56d09b0","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:41:33.2329956+08:00","Properties":{}}
+DEBUG 2018-03-19 15:41:33,254 [52   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b60269fb-1c39-4d2c-a0d6-96c3a56d09b0
+DEBUG 2018-03-19 15:41:48,438 [50   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e66881c6-2b09-4d5a-aac4-c17e6749fdee
+DEBUG 2018-03-19 15:43:14,506 [77   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2ba69d26-2105-4ad6-8424-1dc6ab79a598","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:43:14.5057699+08:00","Properties":{}}
+DEBUG 2018-03-19 15:43:14,519 [50   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2ba69d26-2105-4ad6-8424-1dc6ab79a598
+DEBUG 2018-03-19 15:43:43,562 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b60269fb-1c39-4d2c-a0d6-96c3a56d09b0
+DEBUG 2018-03-19 15:48:05,361 [93   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2ba69d26-2105-4ad6-8424-1dc6ab79a598
+DEBUG 2018-03-19 15:48:11,936 [93   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"84940ac1-13d5-4eaf-bed5-9a28d904da16","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:48:11.9362229+08:00","Properties":{}}
+DEBUG 2018-03-19 15:48:11,959 [81   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 84940ac1-13d5-4eaf-bed5-9a28d904da16
+DEBUG 2018-03-19 15:49:41,675 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"021cbc64-b026-4ecf-8b57-43f9e99d4cf0","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:49:41.6755179+08:00","Properties":{}}
+DEBUG 2018-03-19 15:50:08,895 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 84940ac1-13d5-4eaf-bed5-9a28d904da16
+DEBUG 2018-03-19 15:50:27,266 [96   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 021cbc64-b026-4ecf-8b57-43f9e99d4cf0
+DEBUG 2018-03-19 15:50:50,881 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"722b35a7-5c64-4fde-87a2-890031d2026b","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:50:50.8810808+08:00","Properties":{}}
+DEBUG 2018-03-19 15:50:50,903 [93   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 722b35a7-5c64-4fde-87a2-890031d2026b
+DEBUG 2018-03-19 15:50:51,641 [96   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"bde01f42-09ca-4d21-b3b1-0a06f891c39b","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:50:51.6417479+08:00","Properties":{}}
+DEBUG 2018-03-19 15:50:51,667 [93   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: bde01f42-09ca-4d21-b3b1-0a06f891c39b
+DEBUG 2018-03-19 15:51:04,783 [59   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: bde01f42-09ca-4d21-b3b1-0a06f891c39b
+DEBUG 2018-03-19 15:51:05,570 [59   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6b25cd7f-2db4-4553-a59e-887fc2983468","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:51:05.5706043+08:00","Properties":{}}
+DEBUG 2018-03-19 15:51:05,597 [63   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6b25cd7f-2db4-4553-a59e-887fc2983468
+DEBUG 2018-03-19 15:52:29,561 [93   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 6b25cd7f-2db4-4553-a59e-887fc2983468
+DEBUG 2018-03-19 15:52:30,374 [48   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5222affc-799e-4795-8cf4-17df48ac6e64","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:52:30.3743662+08:00","Properties":{}}
+DEBUG 2018-03-19 15:52:30,397 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5222affc-799e-4795-8cf4-17df48ac6e64
+DEBUG 2018-03-19 15:54:25,334 [90   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"da1a0c21-fa00-4c16-b797-a1c0814eba70","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:54:25.3342245+08:00","Properties":{}}
+DEBUG 2018-03-19 15:54:25,362 [89   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: da1a0c21-fa00-4c16-b797-a1c0814eba70
+DEBUG 2018-03-19 15:54:54,196 [90   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5222affc-799e-4795-8cf4-17df48ac6e64
+DEBUG 2018-03-19 15:57:00,010 [90   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9a8ae949-a53c-49ca-b62c-f7e24523035f","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:57:00.0107444+08:00","Properties":{}}
+DEBUG 2018-03-19 15:57:29,322 [96   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: da1a0c21-fa00-4c16-b797-a1c0814eba70
+DEBUG 2018-03-19 15:58:35,520 [53   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9a8ae949-a53c-49ca-b62c-f7e24523035f
+DEBUG 2018-03-19 15:58:36,288 [59   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"98370431-4063-4289-810f-01e5948d1b0a","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:58:36.2880059+08:00","Properties":{}}
+DEBUG 2018-03-19 15:58:36,309 [89   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 98370431-4063-4289-810f-01e5948d1b0a
+DEBUG 2018-03-19 15:58:49,492 [93   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 98370431-4063-4289-810f-01e5948d1b0a
+DEBUG 2018-03-19 15:58:50,273 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"36139edd-89a4-4ff4-8b8f-4beaaf46fc1a","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:58:50.2735613+08:00","Properties":{}}
+DEBUG 2018-03-19 15:58:50,299 [56   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 36139edd-89a4-4ff4-8b8f-4beaaf46fc1a
+DEBUG 2018-03-19 15:59:02,117 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 36139edd-89a4-4ff4-8b8f-4beaaf46fc1a
+DEBUG 2018-03-19 15:59:02,879 [93   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f549835d-d16a-4573-94a8-619b04677476","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:59:02.8797209+08:00","Properties":{}}
+DEBUG 2018-03-19 15:59:02,902 [89   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f549835d-d16a-4573-94a8-619b04677476
+DEBUG 2018-03-19 15:59:51,959 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f549835d-d16a-4573-94a8-619b04677476
+DEBUG 2018-03-19 15:59:54,358 [59   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8e962f5e-293e-4d2d-aff7-9e0b5e9a48c9","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T15:59:54.3581239+08:00","Properties":{}}
+DEBUG 2018-03-19 15:59:54,389 [90   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8e962f5e-293e-4d2d-aff7-9e0b5e9a48c9
+ERROR 2018-03-19 16:00:42,749 [48   ] MyCreek.Web.Controllers.MenusController  - Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+System.Web.HttpException (0x80004005): Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyCreek.Web.Models.Layout.SideBarUserAreaViewModel.GetShownLoginName() in E:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Models\Layout\SideBarUserAreaViewModel.cs:line 13
+   at ASP._Page_Views_Layout__SideBarUserArea_cshtml.Execute() in e:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Views\Layout\_SideBarUserArea.cshtml:line 7
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.<>c__DisplayClassa.<EndProcessRequest>b__9()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.<>c__DisplayClass4.<Wrap>b__3()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap[TResult](Func`1 func)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap(Action action)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtilityWrapper.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName)
+   at ASP._Page_Views_Shared__Layout_cshtml.Execute() in e:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Views\Shared\_Layout.cshtml:line 93
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2018-03-19 16:00:44,414 [78   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:line 28
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Github\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 48
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:line 28
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Github\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 48
+WARN  2018-03-19 16:00:50,651 [59   ] yCreek.Web.Controllers.AccountController - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MyCreek.Web.Controllers.AccountController.<GetLoginResultAsync>d__13.MoveNext() in E:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Controllers\AccountController.cs:line 130
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MyCreek.Web.Controllers.AccountController.<Login>d__12.MoveNext() in E:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Controllers\AccountController.cs:line 100
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2018-03-19 16:00:55,293 [59   ] yCreek.Web.Controllers.AccountController - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MyCreek.Web.Controllers.AccountController.<GetLoginResultAsync>d__13.MoveNext() in E:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Controllers\AccountController.cs:line 130
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MyCreek.Web.Controllers.AccountController.<Login>d__12.MoveNext() in E:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Controllers\AccountController.cs:line 100
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2018-03-19 16:01:02,959 [93   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"36201b4a-7cbf-4485-8f60-9e8fec03418f","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T16:01:02.9596572+08:00","Properties":{}}
+DEBUG 2018-03-19 16:01:02,966 [51   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 36201b4a-7cbf-4485-8f60-9e8fec03418f
+DEBUG 2018-03-19 16:01:07,450 [59   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 36201b4a-7cbf-4485-8f60-9e8fec03418f
+DEBUG 2018-03-19 16:01:08,119 [96   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"27b6017b-cf02-4b74-a9f8-509f81e6407b","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T16:01:08.1195499+08:00","Properties":{}}
+DEBUG 2018-03-19 16:01:08,144 [56   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 27b6017b-cf02-4b74-a9f8-509f81e6407b
+DEBUG 2018-03-19 16:01:14,559 [45   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8e962f5e-293e-4d2d-aff7-9e0b5e9a48c9
+DEBUG 2018-03-19 16:06:49,292 [93   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"394f1668-2d6a-43e0-a240-0749b2125d64","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T16:06:49.2921404+08:00","Properties":{}}
+DEBUG 2018-03-19 16:07:15,143 [90   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 27b6017b-cf02-4b74-a9f8-509f81e6407b
+DEBUG 2018-03-19 16:13:23,877 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b4b7b5bb-3277-4b7b-a57b-895e3d65d9a3","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T16:13:23.8776291+08:00","Properties":{}}
+DEBUG 2018-03-19 16:13:23,893 [59   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b4b7b5bb-3277-4b7b-a57b-895e3d65d9a3
+DEBUG 2018-03-19 16:13:50,790 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 394f1668-2d6a-43e0-a240-0749b2125d64
+DEBUG 2018-03-19 16:23:20,235 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b4b7b5bb-3277-4b7b-a57b-895e3d65d9a3
+DEBUG 2018-03-19 16:23:21,303 [45   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8ee7f28e-10b1-477d-877c-8a9742101c63","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T16:23:21.3033169+08:00","Properties":{}}
+DEBUG 2018-03-19 16:23:21,332 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8ee7f28e-10b1-477d-877c-8a9742101c63
+DEBUG 2018-03-19 16:24:31,281 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8ee7f28e-10b1-477d-877c-8a9742101c63
+DEBUG 2018-03-19 16:24:32,003 [96   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d9a6e31d-91e4-4098-9d7c-f3ec621aa87d","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T16:24:32.0031817+08:00","Properties":{}}
+DEBUG 2018-03-19 16:24:32,025 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d9a6e31d-91e4-4098-9d7c-f3ec621aa87d
+DEBUG 2018-03-19 16:27:58,441 [51   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d9a6e31d-91e4-4098-9d7c-f3ec621aa87d
+DEBUG 2018-03-19 16:27:59,303 [71   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"60af5d7d-30ce-4848-a0cf-4cf6d6236188","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T16:27:59.3030535+08:00","Properties":{}}
+DEBUG 2018-03-19 16:27:59,330 [45   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 60af5d7d-30ce-4848-a0cf-4cf6d6236188
+DEBUG 2018-03-19 16:30:20,877 [71   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 60af5d7d-30ce-4848-a0cf-4cf6d6236188
+DEBUG 2018-03-19 16:30:21,807 [53   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ed58c533-43b1-4f46-a179-22f68a264024","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T16:30:21.8074299+08:00","Properties":{}}
+DEBUG 2018-03-19 16:30:21,859 [93   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ed58c533-43b1-4f46-a179-22f68a264024
+DEBUG 2018-03-19 16:32:47,103 [71   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ed58c533-43b1-4f46-a179-22f68a264024
+DEBUG 2018-03-19 16:32:55,147 [71   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a390f852-43a3-4981-be58-a7993b30bd2d","IpAddress":"192.168.140.1","TenantId":null,"UserId":null,"ConnectTime":"2018-03-19T16:32:55.1471014+08:00","Properties":{}}
+ERROR 2018-03-19 16:34:01,292 [51   ] MyCreek.Web.Controllers.MenusController  - Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+System.Web.HttpException (0x80004005): Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyCreek.Web.Models.Layout.SideBarUserAreaViewModel.GetShownLoginName() in E:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Models\Layout\SideBarUserAreaViewModel.cs:line 13
+   at ASP._Page_Views_Layout__SideBarUserArea_cshtml.Execute() in e:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Views\Layout\_SideBarUserArea.cshtml:line 7
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.<>c__DisplayClassa.<EndProcessRequest>b__9()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.<>c__DisplayClass4.<Wrap>b__3()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap[TResult](Func`1 func)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap(Action action)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtilityWrapper.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName)
+   at ASP._Page_Views_Shared__Layout_cshtml.Execute() in e:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Views\Shared\_Layout.cshtml:line 93
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2018-03-19 16:34:01,423 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a390f852-43a3-4981-be58-a7993b30bd2d
+DEBUG 2018-03-19 16:34:03,378 [93   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b1b815e1-ae4c-46ba-999c-f3d448c944b4","IpAddress":"192.168.140.1","TenantId":null,"UserId":null,"ConnectTime":"2018-03-19T16:34:03.3782934+08:00","Properties":{}}
+DEBUG 2018-03-19 16:34:03,383 [78   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b1b815e1-ae4c-46ba-999c-f3d448c944b4
+DEBUG 2018-03-19 16:34:04,997 [56   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b1b815e1-ae4c-46ba-999c-f3d448c944b4
+DEBUG 2018-03-19 16:34:13,281 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a32bd278-5577-4095-ad15-b44f24e6f20c","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T16:34:13.2810092+08:00","Properties":{}}
+DEBUG 2018-03-19 16:34:13,286 [53   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a32bd278-5577-4095-ad15-b44f24e6f20c
+DEBUG 2018-03-19 16:34:16,615 [89   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a32bd278-5577-4095-ad15-b44f24e6f20c
+DEBUG 2018-03-19 16:34:17,272 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"012c3d30-f34a-4ddd-bf69-6808bb26ac11","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T16:34:17.2725081+08:00","Properties":{}}
+DEBUG 2018-03-19 16:34:17,300 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 012c3d30-f34a-4ddd-bf69-6808bb26ac11
+DEBUG 2018-03-19 16:37:07,659 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a931d356-db7a-4e7e-b1df-460a5442399e","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T16:37:07.659303+08:00","Properties":{}}
+DEBUG 2018-03-19 16:37:32,387 [45   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 012c3d30-f34a-4ddd-bf69-6808bb26ac11
+DEBUG 2018-03-19 16:38:16,550 [53   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"97b90e77-b8c6-4ac4-a8cb-c93553854dbe","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T16:38:16.5506891+08:00","Properties":{}}
+DEBUG 2018-03-19 16:38:42,451 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a931d356-db7a-4e7e-b1df-460a5442399e
+DEBUG 2018-03-19 16:43:13,582 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a5b63029-d426-43de-84ec-53f7f6368076","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T16:43:13.5822676+08:00","Properties":{}}
+DEBUG 2018-03-19 16:43:32,785 [96   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 97b90e77-b8c6-4ac4-a8cb-c93553854dbe
+ERROR 2018-03-19 17:26:20,825 [43   ] MyCreek.Web.Controllers.MenusController  - Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+System.Web.HttpException (0x80004005): Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyCreek.Web.Models.Layout.SideBarUserAreaViewModel.GetShownLoginName() in E:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Models\Layout\SideBarUserAreaViewModel.cs:line 13
+   at ASP._Page_Views_Layout__SideBarUserArea_cshtml.Execute() in e:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Views\Layout\_SideBarUserArea.cshtml:line 7
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.<>c__DisplayClassa.<EndProcessRequest>b__9()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.<>c__DisplayClass4.<Wrap>b__3()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap[TResult](Func`1 func)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap(Action action)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtilityWrapper.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName)
+   at ASP._Page_Views_Shared__Layout_cshtml.Execute() in e:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Views\Shared\_Layout.cshtml:line 93
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2018-03-19 17:26:21,267 [46   ] MyCreek.Web.Controllers.MenusController  - Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+System.Web.HttpException (0x80004005): Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyCreek.Web.Models.Layout.SideBarUserAreaViewModel.GetShownLoginName() in E:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Models\Layout\SideBarUserAreaViewModel.cs:line 13
+   at ASP._Page_Views_Layout__SideBarUserArea_cshtml.Execute() in e:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Views\Layout\_SideBarUserArea.cshtml:line 7
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.<>c__DisplayClassa.<EndProcessRequest>b__9()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.<>c__DisplayClass4.<Wrap>b__3()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap[TResult](Func`1 func)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap(Action action)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtilityWrapper.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName)
+   at ASP._Page_Views_Shared__Layout_cshtml.Execute() in e:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Views\Shared\_Layout.cshtml:line 93
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2018-03-19 17:26:21,354 [93   ] MyCreek.Web.Controllers.MenusController  - Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+System.Web.HttpException (0x80004005): Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyCreek.Web.Models.Layout.SideBarUserAreaViewModel.GetShownLoginName() in E:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Models\Layout\SideBarUserAreaViewModel.cs:line 13
+   at ASP._Page_Views_Layout__SideBarUserArea_cshtml.Execute() in e:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Views\Layout\_SideBarUserArea.cshtml:line 7
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.<>c__DisplayClassa.<EndProcessRequest>b__9()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.<>c__DisplayClass4.<Wrap>b__3()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap[TResult](Func`1 func)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap(Action action)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtilityWrapper.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName)
+   at ASP._Page_Views_Shared__Layout_cshtml.Execute() in e:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Views\Shared\_Layout.cshtml:line 93
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2018-03-19 17:26:21,860 [43   ] MyCreek.Web.Controllers.MenusController  - Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+System.Web.HttpException (0x80004005): Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyCreek.Web.Models.Layout.SideBarUserAreaViewModel.GetShownLoginName() in E:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Models\Layout\SideBarUserAreaViewModel.cs:line 13
+   at ASP._Page_Views_Layout__SideBarUserArea_cshtml.Execute() in e:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Views\Layout\_SideBarUserArea.cshtml:line 7
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.<>c__DisplayClassa.<EndProcessRequest>b__9()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.<>c__DisplayClass4.<Wrap>b__3()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap[TResult](Func`1 func)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap(Action action)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtilityWrapper.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName)
+   at ASP._Page_Views_Shared__Layout_cshtml.Execute() in e:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Views\Shared\_Layout.cshtml:line 93
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2018-03-19 17:26:21,949 [96   ] MyCreek.Web.Controllers.MenusController  - Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+System.Web.HttpException (0x80004005): Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyCreek.Web.Models.Layout.SideBarUserAreaViewModel.GetShownLoginName() in E:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Models\Layout\SideBarUserAreaViewModel.cs:line 13
+   at ASP._Page_Views_Layout__SideBarUserArea_cshtml.Execute() in e:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Views\Layout\_SideBarUserArea.cshtml:line 7
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.<>c__DisplayClassa.<EndProcessRequest>b__9()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.<>c__DisplayClass4.<Wrap>b__3()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap[TResult](Func`1 func)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap(Action action)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtilityWrapper.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName)
+   at ASP._Page_Views_Shared__Layout_cshtml.Execute() in e:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Views\Shared\_Layout.cshtml:line 93
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2018-03-19 17:26:22,471 [59   ] MyCreek.Web.Controllers.MenusController  - Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+System.Web.HttpException (0x80004005): Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyCreek.Web.Models.Layout.SideBarUserAreaViewModel.GetShownLoginName() in E:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Models\Layout\SideBarUserAreaViewModel.cs:line 13
+   at ASP._Page_Views_Layout__SideBarUserArea_cshtml.Execute() in e:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Views\Layout\_SideBarUserArea.cshtml:line 7
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.<>c__DisplayClassa.<EndProcessRequest>b__9()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.<>c__DisplayClass4.<Wrap>b__3()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap[TResult](Func`1 func)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap(Action action)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtilityWrapper.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName)
+   at ASP._Page_Views_Shared__Layout_cshtml.Execute() in e:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Views\Shared\_Layout.cshtml:line 93
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2018-03-19 17:26:23,895 [48   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"3ca5cfb9-f27a-4c19-95f9-01bb420e5a1e","IpAddress":"192.168.140.1","TenantId":null,"UserId":null,"ConnectTime":"2018-03-19T17:26:23.8950064+08:00","Properties":{}}
+DEBUG 2018-03-19 17:26:23,900 [71   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 3ca5cfb9-f27a-4c19-95f9-01bb420e5a1e
+DEBUG 2018-03-19 17:26:25,718 [89   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 3ca5cfb9-f27a-4c19-95f9-01bb420e5a1e
+DEBUG 2018-03-19 17:26:35,316 [71   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b43cc550-ff3f-4085-927c-62608ed71103","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T17:26:35.3160563+08:00","Properties":{}}
+DEBUG 2018-03-19 17:26:35,325 [78   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b43cc550-ff3f-4085-927c-62608ed71103
+DEBUG 2018-03-19 17:26:50,929 [59   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a5b63029-d426-43de-84ec-53f7f6368076
+DEBUG 2018-03-19 17:27:50,242 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b43cc550-ff3f-4085-927c-62608ed71103
+DEBUG 2018-03-19 17:27:51,011 [53   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2988d05d-6720-428c-96c3-c697631f94bb","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-19T17:27:51.0108373+08:00","Properties":{}}
+DEBUG 2018-03-19 17:27:51,031 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2988d05d-6720-428c-96c3-c697631f94bb

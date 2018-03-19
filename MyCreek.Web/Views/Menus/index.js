@@ -70,10 +70,7 @@
         });
 
 
-        var IndexPageTemplate = uediterControl.initEditor('IndexPageTemplate');
-        var GeneralPageTemplate = uediterControl.initEditor('GeneralPageTemplate');
-        var CreatePageTemplate = uediterControl.initEditor('CreatePageTemplate');
-        var UpdatePageTemplate = uediterControl.initEditor('UpdatePageTemplate');
+        uediterControl.bindControl();
 
    
        

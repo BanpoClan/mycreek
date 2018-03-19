@@ -1043,7 +1043,8 @@ UE.registerUI('button_preview',function(editor,uiName){
     return btn;
 });
 
-UE.registerUI('button_save',function(editor,uiName){
+UE.registerUI('button_save', function (editor, uiName) {
+
     if(!this.options.toolleipi)
     {
         return false;
@@ -1052,7 +1053,7 @@ UE.registerUI('button_save',function(editor,uiName){
     editor.registerCommand(uiName,{
         execCommand:function(){
             try {
-                leipiFormDesign.fnCheckForm('save');
+                leipiFormDesign.fnCheckForm(editor,'save');
             } catch ( e ) {
                 alert('leipiFormDesign.fnCheckForm("save") 保存异常');
             }
@@ -1068,7 +1069,8 @@ UE.registerUI('button_save',function(editor,uiName){
         //需要添加的额外样式，指定icon图标，这里默认使用一个重复的icon
         cssRules :'background-position: -481px -20px;',
         //点击时执行的命令
-        onclick:function () {
+        onclick: function () {
+   
             //这里可以不用执行命令,做你自己的操作也可
            editor.execCommand(uiName);
         }

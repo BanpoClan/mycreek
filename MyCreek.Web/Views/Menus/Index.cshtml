@@ -38,10 +38,10 @@
                         <ul class="nav nav-tabs tab-col-teal" role="tablist">
                             <li role="presentation" class="active"><a href="#basic" data-toggle="tab">基本设置</a></li>
                             <li role="presentation"><a href="#field" data-toggle="tab">字段管理</a></li>
-                            <li role="presentation"><a href="#list" data-toggle="tab">列表模板</a></li>
-                            <li role="presentation"><a href="#general" data-toggle="tab">通用表单模板</a></li>
-                            <li role="presentation"><a href="#create" data-toggle="tab">新增表单模板</a></li>
-                            <li role="presentation"><a href="#update" data-toggle="tab">编辑表单模板</a></li>
+                            <li role="presentation" templateId="IndexPageTemplate"><a href="#list" data-toggle="tab">列表模板</a></li>
+                            <li role="presentation" templateId="CreatePageTemplate"><a href="#general" data-toggle="tab">通用表单模板</a></li>
+                            <li role="presentation" templateId="UpdatePageTemplate"><a href="#create" data-toggle="tab" >新增表单模板</a></li>
+                            <li role="presentation" templateId="GeneralPageTemplate"><a href="#update" data-toggle="tab" >编辑表单模板</a></li>
                         </ul>
                         <!-- Tab panes -->
                         <div class="tab-content">
@@ -103,7 +103,7 @@
     <!--建议手动加在语言，避免在ie下有时因为加载语言失败导致编辑器加载失败-->
     <!--这里加载的语言文件会覆盖你在配置项目里添加的语言类型，比如你在配置项目里配置的是英文，这里加载的中文，那最后就是中文-->
     <script type="text/javascript" charset="utf-8" src="~/lib/uediter/lang/zh-cn/zh-cn.js"></script>
-    <script type="text/javascript" charset="utf-8" src="~/lib/uediter/third-party/formdesign/leipi.formdesign.v4.js"></script>
+    <script type="text/javascript" charset="utf-8" src="~/lib/uediter/formdesign/leipi.formdesign.v4.js"></script>
 
 
     <script type="text/javascript" src="~/Views/Menus/uediterControl.js"></script>
