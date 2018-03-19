@@ -32,6 +32,7 @@
         //This is used to get the application's root path from javascript. It's useful if you're running application in a virtual directory under IIS.
         var abp = abp || {}; abp.appPath = '@ApplicationPath';
     </script>
+    @Scripts.Render("~/Bundles/vendor/js/bottom")
 </head>
 <body class="@("theme-" + uiTheme)">
     <!-- Page Loader -->
@@ -114,7 +115,7 @@
         </div>
     </section>
 
-    @Scripts.Render("~/Bundles/vendor/js/bottom")
+ 
 
     <script>
         //Localizing momentjs

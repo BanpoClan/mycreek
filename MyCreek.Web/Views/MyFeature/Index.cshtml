@@ -1,0 +1,68 @@
+﻿@using Abp.Web.Mvc.Extensions
+@{
+    ViewBag.ActiveMenu = "Feature"; //The menu item will be active for this page.
+    ViewBag.Title = "Index";
+}
+
+<style>
+    .labelex {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    select {
+        color: black;
+    }
+</style>
+<link href="~/lib/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="~/lib/zTree/css/bootstrapStyle/bootstrapStyle.css" type="text/css">
+<link href='~/lib/jquery-jtable/themes/metro/blue/jtable.css' rel='stylesheet' type='text/css' />
+@Html.Raw(ViewBag.CssList)
+
+@section scripts{
+
+
+    <script type="text/javascript" src="~/lib/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="~/lib/jquery-jtable/jquery.jtable.min.js"></script>
+    <script type="text/javascript" src="~/lib/jquery-jtable/extensions/jquery.jtable.record-actions.js"></script>
+    <script type="text/javascript" src="~/Abp/Framework/scripts/libs/abp.jtable.js"></script>
+    <script type="text/javascript" src="~/Scripts/underscore.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery-custom.js"></script>
+    <script type="text/javascript" src="~/Scripts/ModalManager.js"></script>
+
+    <script type="text/javascript" src="~/Views/MyFeature/index.js"></script>
+    <script type='text/javascript' src='~/Views/MyFeature/creekTable.js'></script>
+}
+
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+        <div class="card">
+            <div class="header">
+                <h2>
+                    @ViewBag.FeatureTitle
+                </h2>
+                <small>@ViewBag.FeatureSubTitle</small>
+            </div>
+            <div class="body">
+                <div class="row">
+
+                    @Html.Raw(ViewBag.ListContent)
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+

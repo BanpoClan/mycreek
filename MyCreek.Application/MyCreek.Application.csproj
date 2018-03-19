@@ -312,7 +312,9 @@
     <Compile Include="SysAdmin\Dto\GetFieldPagedInput.cs" />
     <Compile Include="SysAdmin\Dto\MenuItemDto.cs" />
     <Compile Include="SysAdmin\IMenuMgrAppService.cs" />
+    <Compile Include="SysAdmin\IMyFeatureAppService.cs" />
     <Compile Include="SysAdmin\MenuMgrAppService.cs" />
+    <Compile Include="SysAdmin\MyFeatureAppService.cs" />
     <Compile Include="Users\Dto\CreateUserDto.cs" />
     <Compile Include="Users\Dto\UpdateUserDto.cs" />
     <Compile Include="Users\Dto\UserDto.cs" />

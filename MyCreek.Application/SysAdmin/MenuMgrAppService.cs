@@ -218,7 +218,8 @@ namespace MyCreek.SysAdmin
 
         }
 
-        public async Task CreateCustomFeatureStruct(string menuGuid)
+     
+        public async Task<CustomFeatureCoreStruct> GetMenuInfo(string menuGuid)
         {
             //通过Guid获取到对应的菜单的表
             var menu = await _menuRepository.GetSingleMenuItemDefine(menuGuid);
@@ -228,6 +229,13 @@ namespace MyCreek.SysAdmin
             var dbStruc = new CustomFeatureCoreStruct();
             dbStruc.MenuItemDefine = menu;
             dbStruc.Fields = filds;
+
+            return dbStruc;
+        }
+
+        public async Task CreateCustomFeatureStruct(string menuGuid)
+        {
+            var dbStruc = await GetMenuInfo(menuGuid);
             await _structOperateRepository.CreateDbStruct(dbStruc);
         }
     }

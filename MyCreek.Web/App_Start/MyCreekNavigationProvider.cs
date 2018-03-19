@@ -48,17 +48,17 @@ namespace MyCreek.Web
                     var menuItem = new MenuItemDefinition(
                            item.Name,
                            L(item.DisplayName),
-                           url: item.Url,
+                           url: item.Url ,
                            icon: item.Icon
                        );
                     context.Manager.MainMenu.AddItem(menuItem);
-                    BuildTree(menuItem, item,  data);
+                    BuildTree(menuItem, item, data);
 
                 }
             }
         }
 
-        private void BuildTree(MenuItemDefinition menuItem, MenuItemDefine item,  List<MenuItemDefine> data)
+        private void BuildTree(MenuItemDefinition menuItem, MenuItemDefine item, List<MenuItemDefine> data)
         {
 
             //找当前项的子项
@@ -68,7 +68,7 @@ namespace MyCreek.Web
                 var subMenuItem = new MenuItemDefinition(
                            subItem.Name,
                            L(subItem.DisplayName),
-                           url: subItem.Url,
+                           url: subItem.Url + "/index?id=" + item.Id,
                            icon: subItem.Icon
                        );
                 menuItem.AddItem(subMenuItem);

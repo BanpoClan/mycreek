@@ -68,6 +68,14 @@
         abp.event.on('app.createOrEditRoleModalSaved', function () {
             tableControl.initTable(_service, _createOrEditModal);
         });
+
+
+        var IndexPageTemplate = uediterControl.initEditor('IndexPageTemplate');
+        var GeneralPageTemplate = uediterControl.initEditor('GeneralPageTemplate');
+        var CreatePageTemplate = uediterControl.initEditor('CreatePageTemplate');
+        var UpdatePageTemplate = uediterControl.initEditor('UpdatePageTemplate');
+
+   
        
     });
 
