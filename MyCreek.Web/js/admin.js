@@ -61,6 +61,12 @@ $.AdminBSB.leftSideBar = {
                 if (!$target.hasClass('js-right-sidebar')) $overlay.fadeOut();
                 $body.removeClass('overlay-open');
             }
+
+            //¼ÇÂ¼µ½cookie
+            if (!$target.hasClass('toggled') && e.target.nodeName.toLowerCase() === 'span') {
+                $.cookie('curMenuNode', $target.context.innerText);   
+            }
+            
         });
 
         $.each($('.menu-toggle.toggled'), function (i, val) {
@@ -93,6 +99,9 @@ $.AdminBSB.leftSideBar = {
 
             $this.toggleClass('toggled');
             $content.slideToggle(320);
+
+
+
         });
 
         //Set menu height
@@ -106,6 +115,23 @@ $.AdminBSB.leftSideBar = {
         //Set Waves
         Waves.attach('.menu .list a', ['waves-block']);
         Waves.init();
+       
+        var curNode = $.cookie('curMenuNode'); 
+        
+        if (curNode) {
+            $("ul[class='list'] li").each(function (k, v) {
+                
+                if ($(this).find('span').text() == curNode) {
+                    $(this).addClass('active');
+                    //menu-toggle waves-effect waves-block toggled
+                    //menu-toggle waves-effect waves-block
+                    $(this).parents('ul:first').prev().trigger('click');
+                }
+            });
+            
+        }
+
+        
     },
     setMenuHeight: function (isFirstTime) {
         if (typeof $.fn.slimScroll != 'undefined') {

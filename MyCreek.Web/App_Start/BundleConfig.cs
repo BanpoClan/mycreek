@@ -28,6 +28,7 @@ namespace MyCreek.Web
                     .Include(
                         "~/lib/json2/json2.js",
                         "~/lib/jquery/dist/jquery.js",
+                        "~/lib/jquery/jquery.cookie.js",
                         "~/lib/bootstrap/dist/js/bootstrap.js",
                         "~/lib/moment/min/moment-with-locales.js",
                         "~/lib/jquery-validation/dist/jquery.validate.js",

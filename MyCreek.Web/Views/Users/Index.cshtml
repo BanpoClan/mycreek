@@ -1,9 +1,7 @@
 ﻿@using Abp.Authorization.Users
 @using Abp.Web.Mvc.Extensions
 @model MyCreek.Web.Models.Users.UserListViewModel
-@{
-    ViewBag.ActiveMenu = PageNames.Users; //The menu item will be active for this page.
-}
+
 @section scripts
 {
     @Html.IncludeScript("~/Views/Users/Index.js")
