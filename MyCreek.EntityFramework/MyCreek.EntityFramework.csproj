@@ -330,6 +330,10 @@
     <Compile Include="Migrations\201803180925397_修改menu表.Designer.cs">
       <DependentUpon>201803180925397_修改menu表.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803221145200_添加菜单状态对象.cs" />
+    <Compile Include="Migrations\201803221145200_添加菜单状态对象.Designer.cs">
+      <DependentUpon>201803221145200_添加菜单状态对象.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyCreekDataModule.cs" />
@@ -388,6 +392,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201803180925397_修改menu表.resx">
       <DependentUpon>201803180925397_修改menu表.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803221145200_添加菜单状态对象.resx">
+      <DependentUpon>201803221145200_添加菜单状态对象.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

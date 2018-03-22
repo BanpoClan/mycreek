@@ -267,6 +267,7 @@
     <Compile Include="Modules\SysAdmin\CustomFeatureCoreStruct.cs" />
     <Compile Include="Modules\SysAdmin\Field.cs" />
     <Compile Include="Modules\SysAdmin\MenuItemDefine.cs" />
+    <Compile Include="Modules\SysAdmin\MenuStatus.cs" />
     <Compile Include="MyCreekConsts.cs" />
     <Compile Include="MyCreekCoreModule.cs" />
     <Compile Include="AppVersionHelper.cs" />

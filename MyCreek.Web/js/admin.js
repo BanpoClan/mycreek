@@ -51,6 +51,7 @@ $.AdminBSB.leftSideBar = {
         var _this = this;
         var $body = $('body');
         var $overlay = $('.overlay');
+        var _service = abp.services.app.menuMgr;
 
         //Close sidebar
         $(window).click(function (e) {
@@ -62,11 +63,19 @@ $.AdminBSB.leftSideBar = {
                 $body.removeClass('overlay-open');
             }
 
-            //记录到cookie
+            //记录到cookie  这种方式不得行  改为：记录到数据库
             if (!$target.hasClass('toggled') && e.target.nodeName.toLowerCase() === 'span') {
-                $.cookie('curMenuNode', $target.context.innerText);   
+                //$.cookie('curMenuNode', $target.context.innerText);   
+           
+                var href = $($(e.target).parent()).attr('href');
+                if (href.indexOf('menuGuid') > 0) {
+                    _service.setMenuStatus($($(e.target).parent()).attr('href')).done(function (result) {
+
+                    });
+                }
+
             }
-            
+
         });
 
         $.each($('.menu-toggle.toggled'), function (i, val) {
@@ -115,23 +124,25 @@ $.AdminBSB.leftSideBar = {
         //Set Waves
         Waves.attach('.menu .list a', ['waves-block']);
         Waves.init();
-       
-        var curNode = $.cookie('curMenuNode'); 
-        
-        if (curNode) {
-            $("ul[class='list'] li").each(function (k, v) {
-                
-                if ($(this).find('span').text() == curNode) {
-                    $(this).addClass('active');
-                    //menu-toggle waves-effect waves-block toggled
-                    //menu-toggle waves-effect waves-block
-                    $(this).parents('ul:first').prev().trigger('click');
-                }
-            });
-            
-        }
 
-        
+        _service.getMenuStatus().done(function (result) {
+            if (result && result.indexOf('menuGuid')>0) {
+                $("ul[class='list'] li").each(function (k, v) {
+                    
+                    if ($(this).find('a').attr('href') == result) {
+                        $(this).addClass('active');
+                        //menu-toggle waves-effect waves-block toggled
+                        //menu-toggle waves-effect waves-block
+                        $(this).parents('ul:first').prev().trigger('click');
+                    }
+                });
+
+            }
+        });
+
+
+
+
     },
     setMenuHeight: function (isFirstTime) {
         if (typeof $.fn.slimScroll != 'undefined') {

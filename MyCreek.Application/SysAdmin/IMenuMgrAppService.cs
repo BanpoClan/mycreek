@@ -72,5 +72,17 @@ namespace MyCreek.SysAdmin
         /// <param name="input"></param>
         /// <returns></returns>
         Task UpdateMenuTemplate(TemplateInput input);
+
+        /// <summary>
+        /// 点击菜单，插入一条数据
+        /// </summary>
+        /// <param name="menuGuid"></param>
+        /// <returns></returns>
+        Task SetMenuStatus(string menuGuid);
+        /// <summary>
+        /// 获取该条数据，用以展开菜单
+        /// </summary>
+        /// <returns></returns>
+        Task<string> GetMenuStatus();
     }
 }

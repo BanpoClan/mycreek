@@ -28,12 +28,18 @@ namespace MyCreek.SysAdmin
         private readonly PinYinConverter _converter;
         private readonly IDBStructOperateRepository _structOperateRepository;
 
-        public MenuMgrAppService(IMenuMgrRepository menuRepository, IFieldsMgrRepository fieldRepository, IDBStructOperateRepository structOperateRepository)
+        private readonly IRepository<MenuStatus> _menuStatusRepository;
+
+
+        public MenuMgrAppService(IMenuMgrRepository menuRepository, IFieldsMgrRepository fieldRepository,
+            IDBStructOperateRepository structOperateRepository,
+            IRepository<MenuStatus> menuStatusRepository)
         {
             _menuRepository = menuRepository;
             _converter = new PinYinConverter();
             _fieldRepository = fieldRepository;
             _structOperateRepository = structOperateRepository;
+            _menuStatusRepository = menuStatusRepository;
         }
 
         public async Task CreateOrEdit(CreateOrEditInput input)
@@ -218,7 +224,7 @@ namespace MyCreek.SysAdmin
 
         }
 
-     
+
         public async Task<CustomFeatureCoreStruct> GetMenuInfo(string menuGuid)
         {
             //通过Guid获取到对应的菜单的表
@@ -243,7 +249,7 @@ namespace MyCreek.SysAdmin
         {
             if (!string.IsNullOrEmpty(input.MenuGuid))
             {
-                var menuItemDefine = await _menuRepository.SingleAsync(c=>c.MenuGuid==input.MenuGuid);
+                var menuItemDefine = await _menuRepository.SingleAsync(c => c.MenuGuid == input.MenuGuid);
                 if (menuItemDefine != null)
                 {
                     if (input.TemplType == "IndexPageTemplate")
@@ -263,10 +269,28 @@ namespace MyCreek.SysAdmin
                     {
                         menuItemDefine.GeneralPageTemplate = input.Content;
                     }
-                 
+
                     await _menuRepository.UpdateAsync(menuItemDefine);
                 }
             }
+        }
+
+        public async Task SetMenuStatus(string menuGuid)
+        {
+            MenuStatus s = new MenuStatus();
+            s.MenuGuid = menuGuid;
+            var data = await _menuStatusRepository.GetAllListAsync();
+            foreach (var item in data)
+            {
+                await _menuStatusRepository.DeleteAsync(item);
+            }
+            await _menuStatusRepository.InsertAsync(s);
+        }
+
+        public async Task<string> GetMenuStatus()
+        {
+            var data = await _menuStatusRepository.GetAllListAsync();
+            return data.FirstOrDefault().MenuGuid;
         }
     }
 }

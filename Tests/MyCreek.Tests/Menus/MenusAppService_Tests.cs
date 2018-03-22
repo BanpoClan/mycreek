@@ -19,18 +19,7 @@ namespace MyCreek.Tests.Users
             menuMgrAppService = Resolve<IMenuMgrAppService>();
         }
 
-        [Fact]
-        public async Task GetUsers_Test()
-        {
-            //Act
-            GetFieldInput input = new GetFieldInput();
-            input.MenuGuid = "42a0ab72-1ff4-4187-98db-488636841968";
-            var output = await menuMgrAppService.GetFields(input);
-
-            //Assert
-            output.Count.ShouldBeGreaterThan(3);
-        }
-
+        
        
     }
 }
