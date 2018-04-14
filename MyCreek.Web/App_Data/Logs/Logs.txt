@@ -2234,3 +2234,165 @@ DEBUG 2018-03-22 20:00:52,480 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        -
 DEBUG 2018-03-22 20:00:53,502 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 06ceee05-a087-43ab-8344-3f9bbff22583
 DEBUG 2018-03-22 20:00:53,604 [54   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"83630a2a-7576-415f-80d1-23d05bef4cd0","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-22T20:00:53.6044396+08:00","Properties":{}}
 DEBUG 2018-03-22 20:00:53,609 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 83630a2a-7576-415f-80d1-23d05bef4cd0
+DEBUG 2018-03-22 20:01:40,488 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e0b18344-e076-47b7-b100-063823390c8c","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-22T20:01:40.48779+08:00","Properties":{}}
+DEBUG 2018-03-22 20:01:40,493 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e0b18344-e076-47b7-b100-063823390c8c
+DEBUG 2018-03-22 20:01:42,238 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 611df8ef-dcd0-4a87-94f6-0014c89606ca
+DEBUG 2018-03-22 20:01:42,238 [54   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 83630a2a-7576-415f-80d1-23d05bef4cd0
+DEBUG 2018-03-22 20:01:42,248 [65   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d72e9047-ae80-4d9a-9ea5-61c6beb00f4c
+DEBUG 2018-03-22 20:01:44,018 [48   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e0b18344-e076-47b7-b100-063823390c8c
+DEBUG 2018-03-22 20:01:44,115 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"acb9b9c2-1fef-4130-8857-22d0d1da46fe","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-22T20:01:44.1154801+08:00","Properties":{}}
+DEBUG 2018-03-22 20:01:44,119 [55   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: acb9b9c2-1fef-4130-8857-22d0d1da46fe
+DEBUG 2018-03-22 20:02:20,132 [65   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: acb9b9c2-1fef-4130-8857-22d0d1da46fe
+DEBUG 2018-03-22 20:02:20,267 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0b744835-6939-437a-a6ec-01747c37ad1a","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-22T20:02:20.2670349+08:00","Properties":{}}
+DEBUG 2018-03-22 20:02:20,270 [48   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0b744835-6939-437a-a6ec-01747c37ad1a
+DEBUG 2018-03-22 20:07:38,999 [60   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0b744835-6939-437a-a6ec-01747c37ad1a
+DEBUG 2018-03-22 20:07:39,222 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0ce1f28f-f2dd-4f00-8b3d-fc4437237450","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-22T20:07:39.2229212+08:00","Properties":{}}
+DEBUG 2018-03-22 20:07:39,224 [57   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0ce1f28f-f2dd-4f00-8b3d-fc4437237450
+DEBUG 2018-03-22 20:07:45,049 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0ce1f28f-f2dd-4f00-8b3d-fc4437237450
+DEBUG 2018-03-22 20:07:48,333 [49   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"cd476714-637a-41a7-b12c-950f46407a27","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-22T20:07:48.3331636+08:00","Properties":{}}
+DEBUG 2018-03-22 20:07:48,340 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: cd476714-637a-41a7-b12c-950f46407a27
+ERROR 2018-03-22 20:08:54,200 [60   ] MyCreek.Web.Controllers.RolesController  - 节已定义:“scripts”。
+System.Web.HttpException (0x80004005): 节已定义:“scripts”。
+   在 System.Web.WebPages.WebPageBase.DefineSection(String name, SectionWriter action)
+   在 ASP._Page_Views_Roles_Index_cshtml.Execute() 位置 e:\Projects\myproject\MyCreekNet\3.2.0\src\MyCreek.Web\Views\Roles\Index.cshtml:行号 85
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2018-03-22 20:08:54,229 [63   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: cd476714-637a-41a7-b12c-950f46407a27
+DEBUG 2018-03-22 20:09:26,642 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ea0e68d4-a00e-48e8-988f-70aa3024a7e1","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-22T20:09:26.6429911+08:00","Properties":{}}
+DEBUG 2018-03-22 20:09:26,650 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ea0e68d4-a00e-48e8-988f-70aa3024a7e1
+DEBUG 2018-03-22 20:10:41,005 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ea0e68d4-a00e-48e8-988f-70aa3024a7e1
+DEBUG 2018-03-22 20:10:41,456 [49   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"856e1285-f510-422b-88f6-0c953eb143e0","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-22T20:10:41.4563437+08:00","Properties":{}}
+DEBUG 2018-03-22 20:10:41,460 [63   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 856e1285-f510-422b-88f6-0c953eb143e0
+DEBUG 2018-03-22 21:09:08,914 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-22 21:09:08,926 [1    ] Abp.Modules.AbpModuleManager             - Found 18 ABP modules in total.
+DEBUG 2018-03-22 21:09:08,932 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.Web.MyCreekWebModule, MyCreek.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 21:09:08,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekDataModule, MyCreek.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 21:09:08,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 21:09:08,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 21:09:08,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 21:09:08,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 21:09:08,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 21:09:08,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 21:09:08,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekCoreModule, MyCreek.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 21:09:08,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.MyCreekApplicationModule, MyCreek.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 21:09:08,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 21:09:08,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCreek.Api.MyCreekWebApiModule, MyCreek.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 21:09:08,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 21:09:08,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 21:09:08,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 21:09:08,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 21:09:08,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 21:09:08,937 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Dapper.AbpDapperModule, Abp.Dapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 21:09:08,941 [1    ] Abp.Modules.AbpModuleManager             - 18 modules loaded.
+DEBUG 2018-03-22 21:09:09,166 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 21:09:09,166 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 21:09:09,166 [1    ] o.Configuration.LanguageManagementConfig - Converted MyCreek (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 21:09:09,166 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 21:09:09,456 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MyCreek.EntityFramework.MyCreekDbContext, MyCreek.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 21:09:11,257 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-22 21:09:11,288 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-22 21:09:11,293 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-22 21:09:11,295 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyCreek
+DEBUG 2018-03-22 21:09:11,296 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+WARN  2018-03-22 21:09:12,725 [1    ] Abp.MultiTenancy.TenantResolver          - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpHeaderTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpHeaderTenantResolveContributor.cs:行号 33
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpHeaderTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpHeaderTenantResolveContributor.cs:行号 33
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+WARN  2018-03-22 21:09:12,734 [1    ] Abp.MultiTenancy.TenantResolver          - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpCookieTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpCookieTenantResolveContributor.cs:行号 12
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Web.MultiTenancy.HttpCookieTenantResolveContributor.ResolveTenantId() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Web\MultiTenancy\HttpCookieTenantResolveContributor.cs:行号 12
+   在 Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors() 位置 D:\Github\aspnetboilerplate\src\Abp\MultiTenancy\TenantResolver.cs:行号 75
+WARN  2018-03-22 21:09:12,744 [1    ] Abp.Auditing.AuditingHelper              - System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Auditing.WebClientInfoProvider.GetClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 43
+   在 Abp.Auditing.WebClientInfoProvider.get_ClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 13
+   在 Abp.Auditing.DefaultAuditInfoProvider.Fill(AuditInfo auditInfo) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\DefaultAuditInfoProvider.cs:行号 20
+   在 Abp.Auditing.AuditingHelper.CreateAuditInfo(Type type, MethodInfo method, IDictionary`2 arguments) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\AuditingHelper.cs:行号 120
+System.Web.HttpException (0x80004005): 请求在此上下文中不可用
+   在 System.Web.HttpContext.get_Request()
+   在 Abp.Auditing.WebClientInfoProvider.GetClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 43
+   在 Abp.Auditing.WebClientInfoProvider.get_ClientIpAddress() 位置 D:\Github\aspnetboilerplate\src\Abp.Web\Auditing\WebClientInfoProvider.cs:行号 13
+   在 Abp.Auditing.DefaultAuditInfoProvider.Fill(AuditInfo auditInfo) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\DefaultAuditInfoProvider.cs:行号 20
+   在 Abp.Auditing.AuditingHelper.CreateAuditInfo(Type type, MethodInfo method, IDictionary`2 arguments) 位置 D:\Github\aspnetboilerplate\src\Abp\Auditing\AuditingHelper.cs:行号 120
+DEBUG 2018-03-22 21:09:15,395 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-22 21:09:15,429 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 15 classes define auto mapping attributes
+DEBUG 2018-03-22 21:09:15,429 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-22 21:09:15,431 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-22 21:09:15,431 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.CreateUserDto
+DEBUG 2018-03-22 21:09:15,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.UpdateUserDto
+DEBUG 2018-03-22 21:09:15,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Users.Dto.UserDto
+DEBUG 2018-03-22 21:09:15,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.SysAdmin.Dto.AdditionalInput
+DEBUG 2018-03-22 21:09:15,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.SysAdmin.Dto.FieldDto
+DEBUG 2018-03-22 21:09:15,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-22 21:09:15,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.PermissionDto
+DEBUG 2018-03-22 21:09:15,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Roles.Dto.RoleDto
+DEBUG 2018-03-22 21:09:15,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-22 21:09:15,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-03-22 21:09:15,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-22 21:09:15,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-03-22 21:09:15,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCreek.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-03-22 21:09:15,651 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-03-22 21:09:15,652 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-03-22 21:09:15,652 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.SysAdmin.IMenuMgrAppService' with service name 'app/menuMgr'.
+DEBUG 2018-03-22 21:09:15,653 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.SysAdmin.IMyFeatureAppService' with service name 'app/myFeature'.
+DEBUG 2018-03-22 21:09:15,654 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.SysAdmin.INotifySMSAppService' with service name 'app/notifySMS'.
+DEBUG 2018-03-22 21:09:15,655 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-03-22 21:09:15,656 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-03-22 21:09:15,657 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-03-22 21:09:15,657 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCreek.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-03-22 21:09:16,463 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"856e1285-f510-422b-88f6-0c953eb143e0","IpAddress":null,"TenantId":null,"UserId":1,"ConnectTime":"2018-03-22T21:09:16.4239606+08:00","Properties":{}}
+DEBUG 2018-03-22 21:09:23,702 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"90045ae7-6167-4640-8b31-f5ab43efc78b","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-22T21:09:23.7021834+08:00","Properties":{}}
+DEBUG 2018-03-22 21:09:23,728 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 90045ae7-6167-4640-8b31-f5ab43efc78b
+DEBUG 2018-03-22 21:10:48,174 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 90045ae7-6167-4640-8b31-f5ab43efc78b
+DEBUG 2018-03-22 21:10:48,343 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0d65cafe-7613-49ee-8a0e-bb7b4ebd2570","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-22T21:10:48.3435289+08:00","Properties":{}}
+DEBUG 2018-03-22 21:10:48,350 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0d65cafe-7613-49ee-8a0e-bb7b4ebd2570
+DEBUG 2018-03-22 21:11:12,265 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0d65cafe-7613-49ee-8a0e-bb7b4ebd2570
+DEBUG 2018-03-22 21:11:12,560 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"abe0c814-02ca-48ef-9ec1-fe3c436fafe0","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-22T21:11:12.5605164+08:00","Properties":{}}
+DEBUG 2018-03-22 21:11:12,575 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: abe0c814-02ca-48ef-9ec1-fe3c436fafe0
+DEBUG 2018-03-22 21:11:52,382 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: abe0c814-02ca-48ef-9ec1-fe3c436fafe0
+DEBUG 2018-03-22 21:11:52,790 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"69a265d7-53cd-4287-ab1e-60c232258fe2","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-22T21:11:52.7900956+08:00","Properties":{}}
+DEBUG 2018-03-22 21:11:52,797 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 69a265d7-53cd-4287-ab1e-60c232258fe2
+DEBUG 2018-03-22 21:12:19,089 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 69a265d7-53cd-4287-ab1e-60c232258fe2
+DEBUG 2018-03-22 21:12:19,387 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9417602c-c2c0-41f0-b729-bed16ddc41f8","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-22T21:12:19.3876147+08:00","Properties":{}}
+DEBUG 2018-03-22 21:12:19,395 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9417602c-c2c0-41f0-b729-bed16ddc41f8
+DEBUG 2018-03-22 21:12:47,697 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9417602c-c2c0-41f0-b729-bed16ddc41f8
+DEBUG 2018-03-22 21:12:47,981 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8211a284-e552-4ede-88e5-f697e6c7b1a1","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-22T21:12:47.9810926+08:00","Properties":{}}
+DEBUG 2018-03-22 21:12:47,989 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8211a284-e552-4ede-88e5-f697e6c7b1a1
+DEBUG 2018-03-22 21:12:57,062 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8211a284-e552-4ede-88e5-f697e6c7b1a1
+DEBUG 2018-03-22 21:12:57,396 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"61872fac-7d36-43e7-902e-1479644802ec","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-22T21:12:57.3966719+08:00","Properties":{}}
+DEBUG 2018-03-22 21:12:57,411 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 61872fac-7d36-43e7-902e-1479644802ec
+DEBUG 2018-03-22 21:13:21,261 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 61872fac-7d36-43e7-902e-1479644802ec
+DEBUG 2018-03-22 21:13:21,550 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c460f7ce-6353-48c3-8aed-5cb2d0f573d7","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-22T21:13:21.5505026+08:00","Properties":{}}
+DEBUG 2018-03-22 21:13:21,557 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c460f7ce-6353-48c3-8aed-5cb2d0f573d7
+DEBUG 2018-03-22 21:13:26,833 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c460f7ce-6353-48c3-8aed-5cb2d0f573d7
+DEBUG 2018-03-22 21:13:27,032 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5d1caa01-18ae-4a86-8b6e-70e7e09f74fe","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-22T21:13:27.0321037+08:00","Properties":{}}
+DEBUG 2018-03-22 21:13:27,044 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5d1caa01-18ae-4a86-8b6e-70e7e09f74fe
+DEBUG 2018-03-22 21:13:28,427 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5d1caa01-18ae-4a86-8b6e-70e7e09f74fe
+DEBUG 2018-03-22 21:13:28,574 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1b207385-fa67-47a5-b2a6-669af9c016d8","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-22T21:13:28.5744721+08:00","Properties":{}}
+DEBUG 2018-03-22 21:13:28,579 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1b207385-fa67-47a5-b2a6-669af9c016d8
+WARN  2018-03-22 21:13:42,205 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'MyCreek'!
+DEBUG 2018-03-22 21:13:42,250 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1b207385-fa67-47a5-b2a6-669af9c016d8
+DEBUG 2018-03-22 21:13:42,367 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"76ec2a01-1c56-441a-955f-d9f383a8b631","IpAddress":"192.168.140.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-22T21:13:42.3677752+08:00","Properties":{}}
+DEBUG 2018-03-22 21:13:42,374 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 76ec2a01-1c56-441a-955f-d9f383a8b631
+DEBUG 2018-03-22 21:25:32,900 [64   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 76ec2a01-1c56-441a-955f-d9f383a8b631
+DEBUG 2018-03-22 21:25:32,919 [63   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 856e1285-f510-422b-88f6-0c953eb143e0

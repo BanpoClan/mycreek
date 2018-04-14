@@ -13,6 +13,9 @@ using MyCreek.Authorization.Roles;
 using MyCreek.Authorization.Users;
 using MyCreek.Roles.Dto;
 using Microsoft.AspNet.Identity;
+using Abp.Collections.Extensions;
+using Abp.Linq.Extensions;
+using Abp.AutoMapper;
 
 namespace MyCreek.Roles
 {
@@ -138,6 +141,17 @@ namespace MyCreek.Roles
         protected virtual void CheckErrors(IdentityResult identityResult)
         {
             identityResult.CheckErrors(LocalizationManager);
+        }
+
+        public PagedResultDto<RoleDto> GetRoles(GetRolePagedInput input)
+        {
+            var query = _roleRepository.GetAll()
+                 .WhereIf(!string.IsNullOrEmpty(input.Filter), t => t.DisplayName.Contains(input.Filter)).OrderBy(c => c.Id);
+
+            var count = query.Count();
+            var list = query.PageBy(input).ToList();
+            var data = new PagedResultDto<RoleDto>(count, list.MapTo<List<RoleDto>>());
+            return data;
         }
     }
 }

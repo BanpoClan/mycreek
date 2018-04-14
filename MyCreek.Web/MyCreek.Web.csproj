@@ -3437,6 +3437,7 @@
     <Content Include="Views\MyFeature\creekTable.js" />
     <Content Include="Views\MyFeature\index.js" />
     <Content Include="Views\Roles\Index.js" />
+    <Content Include="Views\Roles\roleTableList.js" />
     <Content Include="Views\Roles\_EditRoleModal.js" />
     <Content Include="Views\Shared\_Layout.css" />
     <Content Include="Views\Shared\_Layout.js" />

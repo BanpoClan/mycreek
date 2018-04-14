@@ -20,7 +20,8 @@
     <meta name="author" content="">
 
     <link rel="shortcut icon" href="~/favicon.ico">
-
+    <link href="~/lib/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/lib/jquery-jtable/themes/metro/blue/jtable.css" rel="stylesheet" type="text/css" />
     <title>MyCreek</title>
 
     @Styles.Render("~/Bundles/vendor/css")
@@ -33,6 +34,10 @@
         var abp = abp || {}; abp.appPath = '@ApplicationPath';
     </script>
     @Scripts.Render("~/Bundles/vendor/js/bottom")
+    <script type="text/javascript" src="~/lib/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="~/lib/jquery-jtable/jquery.jtable.min.js"></script>
+    <script type="text/javascript" src="~/lib/jquery-jtable/extensions/jquery.jtable.record-actions.js"></script>
+    <script type="text/javascript" src="~/Abp/Framework/scripts/libs/abp.jtable.js"></script>
 </head>
 <body class="@("theme-" + uiTheme)">
     <!-- Page Loader -->

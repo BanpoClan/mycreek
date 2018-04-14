@@ -1,9 +1,9 @@
 ﻿@using Abp.Web.Mvc.Extensions
 @model MyCreek.Web.Models.Roles.RoleListViewModel
+
 @section scripts
 {
     @Html.IncludeScript("~/Views/Roles/Index.js")
-    @Html.IncludeScript("~/Views/Roles/roleTableList.js")
 }
 <div class="row clearfix">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -24,7 +24,36 @@
                 </ul>
             </div>
             <div class="body table-responsive">
-                <div id="list" style="width:100%; margin: auto;"></div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>@L("RoleName")</th>
+                            <th>@L("DisplayName")</th>
+                            <th>@L("Actions")</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var role in Model.Roles)
+                        {
+                            <tr>
+                                <td>@role.Name</td>
+                                <td>@role.DisplayName</td>
+                                <td class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <i class="material-icons">menu</i>
+                                    </a>
+                                    <ul class="dropdown-menu pull-right">
+                                        <li><a href="#" class="waves-effect waves-block edit-role" data-role-id="@role.Id" data-toggle="modal" data-target="#RoleEditModal"><i class="material-icons">edit</i>@L("Edit")</a></li>
+                                        <li><a href="#" class="waves-effect waves-block delete-role" data-role-id="@role.Id" data-role-name="@role.Name"><i class="material-icons">delete_sweep</i>@L("Delete")</a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <button type="button" class="btn btn-primary btn-circle waves-effect waves-circle waves-float pull-right" data-toggle="modal" data-target="#RoleCreateModal">
+                    <i class="material-icons">add</i>
+                </button>
             </div>
         </div>
     </div>
@@ -49,6 +78,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="row clearfix">
                         <div class="col-sm-12">
                             <div class="form-group form-float">
@@ -59,6 +89,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="form-group form-float">
@@ -69,6 +100,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="row clearfix">
                         <div class="col-sm-12">
                             <h4>Permissions</h4>
@@ -90,9 +122,11 @@
         </div>
     </div>
 </div>
+
 <div class="modal fade" id="RoleEditModal" tabindex="-1" role="dialog" aria-labelledby="RoleEditModalLabel" data-backdrop="static">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
+
         </div>
     </div>
 </div>

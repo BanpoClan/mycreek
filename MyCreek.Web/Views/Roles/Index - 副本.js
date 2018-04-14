@@ -5,9 +5,6 @@
         var _$modal = $('#RoleCreateModal');
         var _$form = _$modal.find('form');
 
-
-        roleTableList.initTable(_roleService, _$modal);
-
         _$form.validate({
         });
 
